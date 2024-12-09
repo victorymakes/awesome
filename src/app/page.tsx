@@ -1,32 +1,18 @@
-import projectsData from '@/configuration/projects'
-import Card from '@/components/Card'
+import { Navbar } from '@/components/navbar'
 
-export default function Projects() {
+export default function Home() {
   return (
-    <>
-      <div className="divide-y divide-gray-200 dark:divide-gray-700">
-        <div className="space-y-2 pb-8 pt-6 md:space-y-5">
-          <h1 className="md:leading-14 text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-5xl">
-            酷站
-          </h1>
-          <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
-            收集的一些电子书相关的酷站。
-          </p>
-        </div>
-        <div className="container py-12">
-          <div className="-m-4 flex flex-wrap">
-            {projectsData.map((d) => (
-              <Card
-                key={d.title}
-                title={d.title}
-                description={d.description}
-                imgSrc={d.imgSrc}
-                href={d.href}
-              />
-            ))}
-          </div>
-        </div>
-      </div>
-    </>
+    <div>
+      <div className="h-48">1</div>
+      <div className="h-48">2</div>
+      <div className="h-48">3</div>
+      <div className="h-48">4</div>
+      <div className="h-48">5</div>
+      <div className="h-48">6</div>
+      <div className="h-48">7</div>
+      <div className="h-48">7</div>
+      <div className="h-48">7</div>
+      <div className="h-48">7</div>
+    </div>
   )
 }

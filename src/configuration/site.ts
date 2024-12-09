@@ -1,7 +1,7 @@
 /** @type {import("pliny/config").PlinyConfig } */
 const metadata = {
   title: 'title',
-  headerTitle: 'headerTitle',
+  headerTitle: 'AwesomeLists',
   description: 'description',
   language: 'zh-cn',
   theme: 'system', // system, dark or light
