@@ -1,5 +1,5 @@
 /** @type {import("pliny/config").PlinyConfig } */
-const metadata = {
+export const configuration = {
   title: 'title',
   headerTitle: 'AwesomeLists',
   description: 'description',
@@ -18,6 +18,4 @@ const metadata = {
   pagination: {
     size: 10,
   },
-}
-
-module.exports = metadata
+};

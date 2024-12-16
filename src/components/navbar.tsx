@@ -1,51 +1,27 @@
-'use client'
+'use client';
 
-import { useState } from 'react'
+import { useState } from 'react';
 import {
   NavigationMenu,
   NavigationMenuItem,
   NavigationMenuList,
-} from '@/components/ui/navigation-menu'
-import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from '@/components/ui/sheet'
+} from '@/components/ui/navigation-menu';
+import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from '@/components/ui/sheet';
 
-import { buttonVariants } from './ui/button'
-import { Menu } from 'lucide-react'
-import { ModeToggle } from '@/components/mode-toggle'
-import { GitHubLogoIcon } from '@radix-ui/react-icons'
-
-interface RouteProps {
-  href: string
-  label: string
-}
-
-const routeList: RouteProps[] = [
-  {
-    href: '#features',
-    label: 'Features',
-  },
-  {
-    href: '#testimonials',
-    label: 'Testimonials',
-  },
-  {
-    href: '#pricing',
-    label: 'Pricing',
-  },
-  {
-    href: '#faq',
-    label: 'FAQ',
-  },
-]
+import { buttonVariants } from '@/components/ui/button';
+import { Menu } from 'lucide-react';
+import { ModeToggle } from '@/components/mode-toggle';
+import { routes } from '@/configuration/nav';
 
 export const Navbar = () => {
-  const [isOpen, setIsOpen] = useState<boolean>(false)
+  const [isOpen, setIsOpen] = useState<boolean>(false);
   return (
-    <header className="bg-background text-foreground sticky top-0 z-40 w-full border-b-[1px]">
+    <header className="sticky top-0 z-40 w-full border-b-[1px] bg-background text-foreground">
       <NavigationMenu className="mx-auto">
         <NavigationMenuList className="container flex h-14 w-screen justify-between px-4">
           <NavigationMenuItem className="flex font-bold">
             <a rel="noreferrer noopener" href="/" className="ml-2 flex text-xl font-bold">
-              ShadcnUI/React
+              AwesomeLists
             </a>
           </NavigationMenuItem>
 
@@ -60,33 +36,22 @@ export const Navbar = () => {
                 </Menu>
               </SheetTrigger>
 
-              <SheetContent side={'left'}>
+              <SheetContent side={'right'}>
                 <SheetHeader>
-                  <SheetTitle className="text-xl font-bold">Shadcn/React</SheetTitle>
+                  <SheetTitle className="text-xl font-bold">AwesomeLists</SheetTitle>
                 </SheetHeader>
                 <nav className="mt-4 flex flex-col items-center justify-center gap-2">
-                  {routeList.map(({ href, label }: RouteProps) => (
+                  {routes.map((route) => (
                     <a
                       rel="noreferrer noopener"
-                      key={label}
-                      href={href}
+                      key={route.label}
+                      href={route.href}
                       onClick={() => setIsOpen(false)}
                       className={buttonVariants({ variant: 'ghost' })}
                     >
-                      {label}
+                      {route.label}
                     </a>
                   ))}
-                  <a
-                    rel="noreferrer noopener"
-                    href="https://github.com/leoMirandaa/shadcn-landing-page.git"
-                    target="_blank"
-                    className={`w-[110px] border ${buttonVariants({
-                      variant: 'secondary',
-                    })}`}
-                  >
-                    <GitHubLogoIcon className="h-5 w-5" />
-                    Github
-                  </a>
                 </nav>
               </SheetContent>
             </Sheet>
@@ -94,11 +59,11 @@ export const Navbar = () => {
 
           {/* desktop */}
           <nav className="hidden gap-2 md:flex">
-            {routeList.map((route: RouteProps, i) => (
+            {routes.map((route) => (
               <a
                 rel="noreferrer noopener"
                 href={route.href}
-                key={i}
+                key={route.label}
                 className={`text-[17px] ${buttonVariants({
                   variant: 'ghost',
                 })}`}
@@ -109,20 +74,10 @@ export const Navbar = () => {
           </nav>
 
           <div className="hidden gap-2 md:flex">
-            <a
-              rel="noreferrer noopener"
-              href="https://github.com/leoMirandaa/shadcn-landing-page.git"
-              target="_blank"
-              className={`border ${buttonVariants({ variant: 'secondary' })}`}
-            >
-              <GitHubLogoIcon className="h-5 w-5" />
-              Github
-            </a>
-
             <ModeToggle />
           </div>
         </NavigationMenuList>
       </NavigationMenu>
     </header>
-  )
-}
+  );
+};
