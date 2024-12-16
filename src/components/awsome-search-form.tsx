@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { MultiSelect } from '@/components/multi-select';
 import { Search, XIcon } from 'lucide-react';
 import { useSearchParams } from 'next/navigation';
@@ -16,27 +16,42 @@ import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { Separator } from '@/components/ui/separator';
 
-const tagOptions = [
-  { value: 'react', label: 'React' },
-  { value: 'angular', label: 'Angular' },
-  { value: 'vue', label: 'Vue' },
-  { value: 'svelte', label: 'Svelte' },
-  { value: 'ember', label: 'Ember' },
-];
-
-const categoryOptions = [
-  { value: 'react', label: 'React' },
-  { value: 'angular', label: 'Angular' },
-  { value: 'vue', label: 'Vue' },
-  { value: 'svelte', label: 'Svelte' },
-  { value: 'ember', label: 'Ember' },
-];
+interface Option {
+  value: string;
+  label: string;
+}
 
 const ValueSeparator = '|';
 export const AwsomeSearchForm = () => {
   const searchParams = useSearchParams();
   const [category, setCategory] = useState(searchParams.get('category') || '');
   const [tags, setTags] = useState(searchParams.get('tags')?.split(ValueSeparator) || []);
+  const [tagOptions, setTagOptions] = useState<Option[]>([]);
+  const [categoryOptions, setCategoryOptions] = useState<Option[]>([]);
+
+  const getCategories = async () => {
+    return await (await fetch('/api/categories')).json();
+  };
+
+  const getTags = async () => {
+    return await (await fetch('/api/tags')).json();
+  };
+
+  useEffect(() => {
+    getCategories().then((categories) => {
+      const options = categories.map((category: string) => {
+        return { value: category, label: category };
+      });
+      setCategoryOptions(options);
+    });
+
+    getTags().then((tags) => {
+      const options = tags.map((tag: string) => {
+        return { value: tag, label: tag };
+      });
+      setTagOptions(options);
+    });
+  }, []);
 
   return (
     <form className={'w-full'} action="/" method="GET">

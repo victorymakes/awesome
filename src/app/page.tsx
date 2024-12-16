@@ -16,7 +16,8 @@ import { awsomeService } from '@/service/awsome-service';
 import Link from 'next/link';
 
 export default async function Home() {
-  const items = await awsomeService.getAwsomeItems();
+  const pageData = await awsomeService.getAwsomeItems();
+  const items = pageData.data;
   return (
     <div>
       <AwsomeSearchForm />
