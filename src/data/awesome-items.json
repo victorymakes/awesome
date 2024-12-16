@@ -1,0 +1,2522 @@
+[
+  {
+    "title": "saas-boilerplate.dev",
+    "summary": "SaaS-Boilerplate.dev is a production-ready Nuxt starter kit that helps developers launch SaaS products 10x faster. Built with TypeScript and tRPC, it includes everything you need out of the box: team management, RBAC security, billing, and emails—all with a developer-friendly architecture that prioritizes code quality. Deploy anywhere and start shipping features from day one instead of spending months on infrastructure.",
+    "url": "https://saas-boilerplate.dev",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "Nuxt.js",
+      "SST.dev",
+      "tRPC",
+      "Auth.js",
+      "Prisma ORM",
+      "Tailwind CSS",
+      "Nuxt.js",
+      "Paddle",
+      "Stripe",
+      "Vue Email"
+    ]
+  },
+  {
+    "title": "Mkdirs",
+    "summary": "Mkdirs is the best directory boilerplate, packed with Listings, Payment, Submission, CMS, Blog, Authentication, Newsletter, SEO, Themes and more. Everyone can launch a profitable directory in minutes.",
+    "url": "https://mkdirs.com",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "Next.js",
+      "Auth.js",
+      "ShadCN",
+      "TailwindCSS",
+      "Stripe",
+      "Sanity",
+      "Resend",
+      "Google Analytics",
+      "OpenPanel Analytics"
+    ]
+  },
+  {
+    "title": "Launchway",
+    "summary": "Launchway is a platform agnostic Remix boilerplate including auth (email password, social), payments, emails (designing and sending), marketing pages, file uploads and more - all without any vendor lock-in",
+    "url": "https://www.launchway.dev",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "Remix",
+      "Node",
+      "Docker",
+      "Tailwind",
+      "Zod",
+      "Stripe",
+      "Radix UI",
+      "Sentry",
+      "Typescript",
+      "ShadCN",
+      "PostgreSQL",
+      "MySQL",
+      "SQLite"
+    ]
+  },
+  {
+    "title": "Next.js Subscription Payments Starter",
+    "summary": "An all-in-one starter kit for building high-performance SaaS applications with features like secure user management and authentication using Supabase, data management with PostgreSQL, integration with Stripe for payments, and automatic syncing of pricing plans and subscription statuses via Stripe webhooks.",
+    "url": "https://github.com/vercel/nextjs-subscription-payments",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "PostgreSQL",
+      "Stripe",
+      "Supabase",
+      "Next.js",
+      "Docker",
+      "Vercel"
+    ]
+  },
+  {
+    "title": "QuickStart",
+    "summary": "QuickStart is an AI-powered, production-ready SaaS kit for Next.js and SolidStart. It includes an admin dashboard and complete solutions for auth, payments, paywalls, and more. With clear docs and thoughtful security practices, QuickStart helps you launch apps in record time.",
+    "url": "https://www.quickstartjs.com/",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "Stripe",
+      "Supabase",
+      "OpenAI",
+      "Tailwind",
+      "DaisyUI",
+      "Resend",
+      "Plausible",
+      "Zod"
+    ]
+  },
+  {
+    "title": "StartupBolt",
+    "summary": "StartupBolt is an all-in-one Rapid Launch Kit designed to help you create websites and launch your software as a service (SaaS) startups quickly. With StartupBolt, you can avoid the usual roadblocks like payment integration, authentication, and landing page design, which often prevent entrepreneurs from ever launching.",
+    "url": "https://www.startupbolt.com/",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "TailwindCSS",
+      "Next.js",
+      "Stripe",
+      "LemonSqueezy",
+      "Supabase",
+      "ShadCN",
+      "Nextra",
+      "Meta Conversion API",
+      "Google Tag Manager",
+      "Crisp",
+      "Resend"
+    ]
+  },
+  {
+    "title": "Ignite for Flask",
+    "summary": "Ignite is a scaffold for starting new Flask applications, providing features like user authentication, OAuth login, team management, billing, and deployment support, allowing developers to focus on building their application.",
+    "url": "https://github.com/sumukh/ignite",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "DigitalOcean",
+      "AWS",
+      "Stripe",
+      "Heroku",
+      "Google Cloud",
+      "Docker",
+      "Bootstrap",
+      "Flask",
+      "Python"
+    ]
+  },
+  {
+    "title": "Nextacular",
+    "summary": "An open-source starter kit for building modern multi-tenant SaaS applications with features like authentication, database integration, team workspaces, billing, and SEO support.",
+    "url": "https://nextacular.co",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "Tailwind CSS",
+      "MySQL",
+      "PostgreSQL",
+      "Stripe",
+      "Prisma ORM",
+      "Aurora",
+      "Next.js",
+      "Mailgun",
+      "AWS SES",
+      "NextAuth.js",
+      "Sendgrid"
+    ]
+  },
+  {
+    "title": "Build a SAAS App with Flask",
+    "summary": "A comprehensive course on building web applications using Flask and Docker, covering user accounts, database management, payment integration, RESTful APIs, and more. Includes a bonus section on building RESTful APIs and using web sockets.",
+    "url": "https://buildasaasappwithflask.com/",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "Redis",
+      "SQLAlchemy",
+      "PostgreSQL",
+      "Celery",
+      "Stripe",
+      "AJAX",
+      "JavaScript",
+      "Jinja",
+      "Docker",
+      "JSON",
+      "Bootstrap",
+      "Flask",
+      "Python"
+    ]
+  },
+  {
+    "title": "SAAS Starter Kit",
+    "summary": "Saas Starter Kit is a modern SAAS boilerplate offering features like admin dashboard, full authentication, user profile management, Open AI integration, checkout pages, and more. It also has a Pro version with additional features like multi-tenancy, roles and permissions, and enhanced subscriptions.",
+    "url": "https://github.com/Saas-Starter-Kit/Saas-Kit-prisma",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "Tailwind CSS",
+      "PostgreSQL",
+      "Stripe",
+      "Playwright",
+      "TypeScript",
+      "ShadCN",
+      "Prisma ORM",
+      "Next.js",
+      "React.js",
+      "NextAuth.js"
+    ]
+  },
+  {
+    "title": "React.js SaaS Starter Kit | Makerkit",
+    "summary": "A comprehensive SaaS Starter Kit designed for rapid development and deployment of SaaS applications. It includes features like pre-built authentication, multi-tenancy, billing and subscriptions management, customer portal, and a super admin panel. It also offers plugins for AI chatbot, waitlist, testimonials, and more, along with extensive documentation and community support.",
+    "url": "https://makerkit.dev",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "Firebase",
+      "Tailwind CSS",
+      "Radix UI",
+      "Lemon Squeezy",
+      "Sentry",
+      "Stripe",
+      "Playwright",
+      "TypeScript",
+      "Supabase",
+      "ShadCN",
+      "React Email",
+      "Next.js",
+      "Remix",
+      "i18next",
+      "React.js"
+    ]
+  },
+  {
+    "title": "Indie Starter",
+    "summary": "Indie Starter is a versatile SaaS boilerplate designed for rapid prototyping and development. It features a modern UI, built-in authentication, SEO optimization, payment integration, and analytics. It is ideal for startup founders, freelance developers, and teams looking to quickly launch products and validate business ideas.",
+    "url": "https://indie-starter.dev",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "Tailwind CSS",
+      "Stripe",
+      "TypeScript",
+      "Supabase",
+      "Resend",
+      "ShadCN",
+      "Sanity",
+      "Next.js",
+      "React.js",
+      "Umami"
+    ]
+  },
+  {
+    "title": "SaaS Starter",
+    "summary": "An open-source, fast, and free-to-host SaaS template featuring user authentication, customizable pricing pages, a blog engine, subscription management, a billing portal, user dashboard, contact form, and site search. Built with SvelteKit, Supabase, Stripe, Tailwind, DaisyUI, and Postgres.",
+    "url": "https://saasstarter.work",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "Tailwind CSS",
+      "DaisyUI",
+      "PostgreSQL",
+      "SvelteKit",
+      "Stripe",
+      "Supabase"
+    ]
+  },
+  {
+    "title": "SaasRock | The Remix B2B SaaS Boilerplate",
+    "summary": "SaasRock is a comprehensive SaaS boilerplate designed to help you build, market, and manage B2B applications. It includes over 25 pre-built essential features such as an admin dashboard, app portal, Stripe subscriptions and payments, blog, page builder, knowledge base, workflows, analytics, entity builder, email marketing, notifications, onboarding, feature flags, cache, and metrics.",
+    "url": "https://saasrock.com",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "Tailwind CSS",
+      "Postmark",
+      "Stripe",
+      "TypeScript",
+      "Prisma ORM",
+      "Remix",
+      "React.js",
+      "Vite"
+    ]
+  },
+  {
+    "title": "GoShip",
+    "summary": "A Go + HTMX boilerplate providing essential features for SaaS, AI tools, or web apps, including real-time support, email sending, Stripe payments, background tasks, notifications, authentication, file uploads, mobile readiness, and AI-ready database layer.",
+    "url": "https://goship.run/",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "SMTP",
+      "AWS",
+      "PostgreSQL",
+      "Stripe",
+      "FCM",
+      "Supabase",
+      "JavaScript",
+      "Android",
+      "VanillaJS",
+      "Golang",
+      "Neon",
+      "HTMX",
+      "Svelte",
+      "Alpine.js",
+      "Hyperscript",
+      "DaisyUI",
+      "PGVector",
+      "Playwright",
+      "AWS S3",
+      "iOS"
+    ]
+  },
+  {
+    "title": "LaunchFast SaaS Starter Kits",
+    "summary": "Comprehensive SaaS starter kits for Astro, Next.js, and SvelteKit, covering SEO, analytics, authentication, payments, and more. Includes integrated tools for rapid project launch and compatibility with various third-party services.",
+    "url": "https://launchfa.st/",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "Telegram",
+      "PostgreSQL",
+      "SvelteKit",
+      "Astro",
+      "PostHog Analytics",
+      "Wide Angle Analytics",
+      "Firebase",
+      "Cloud Firestore",
+      "Supabase",
+      "Cloudflare R2",
+      "SMTP2Go",
+      "Nodemailer",
+      "Redis",
+      "Next.js",
+      "Node.js",
+      "Pirsch Analytics",
+      "SQLite",
+      "AWS S3",
+      "Resend",
+      "MongoDB",
+      "Google Analytics"
+    ]
+  },
+  {
+    "title": "GeniePy",
+    "summary": "GeniePy is a modern SaaS starter codebase in pure Python that provides features like user authentication, payment integration, SEO-optimized blog, email sending, and database integration, all ready to use from day one.",
+    "url": "https://geniepy.com",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "Tailwind CSS",
+      "Mailjet",
+      "MySQL",
+      "PostgreSQL",
+      "SQLite",
+      "Stripe",
+      "Clerk",
+      "Mailgun",
+      "React.js",
+      "Python",
+      "Sendgrid"
+    ]
+  },
+  {
+    "title": "Openkoda",
+    "summary": "Openkoda is a platform that accelerates the development of enterprise systems, SaaS applications, and internal tools by providing pre-built application templates, advanced user management, multitenancy support, and a variety of integrations. It offers features like authentication, role-based security, SQL reporting, REST API, and customizable dashboards.",
+    "url": "https://github.com/openkoda/openkoda",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "GraalVM",
+      "Java",
+      "PostgreSQL",
+      "Spring Boot",
+      "JavaScript",
+      "Hibernate"
+    ]
+  },
+  {
+    "title": "Achromatic SaaS Starter Kit",
+    "summary": "Achromatic is a comprehensive SaaS starter kit designed to simplify the development of web applications by providing pre-built components for authentication, billing, emails, invites, onboarding, and more. It aims to save developers time by offering a solid foundation with customizable components and integrations.",
+    "url": "https://shadcnpro.com/",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "Tailwind CSS",
+      "nuqs",
+      "Stripe",
+      "React Email",
+      "Prisma ORM",
+      "ShadCN",
+      "TypeScript",
+      "Next.js",
+      "safe-action",
+      "Zod",
+      "React.js",
+      "Auth.js"
+    ]
+  },
+  {
+    "title": "Nextless.js",
+    "summary": "Nextless.js is a full-stack SaaS boilerplate that helps you build scalable and production-ready SaaS products faster. It includes features like authentication, payment integration, team management, dashboards, landing pages, and email services. It leverages Next.js for the frontend and Serverless Framework for the backend, with integration into the AWS ecosystem.",
+    "url": "https://nextlessjs.com",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "VSCode",
+      "AWS",
+      "PostgreSQL",
+      "Stripe",
+      "Tailwind CSS",
+      "Husky",
+      "Mailgun",
+      "Prettier",
+      "React Native",
+      "Serverless Framework",
+      "ESLint",
+      "MySQL",
+      "TypeScript",
+      "DynamoDB",
+      "Next.js",
+      "Sendgrid",
+      "Postmark",
+      "MongoDB",
+      "Mandrill"
+    ]
+  },
+  {
+    "title": "Gravity Node.js SaaS Boilerplate",
+    "summary": "A comprehensive SaaS boilerplate that simplifies the development of SaaS applications by handling complex tasks like payments, authentication, and more. It includes features such as subscription billing, multidimensional authentication, UI templates, REST API, transactional emails, and a SaaS admin dashboard. It is designed to save developers time and effort, allowing them to focus on building unique features.",
+    "url": "https://usegravity.app/",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "MySQL",
+      "REST API",
+      "PostgreSQL",
+      "Stripe",
+      "ShadCN",
+      "Next.js",
+      "MariaDB",
+      "React.js",
+      "Node.js",
+      "MongoDB",
+      "React Native"
+    ]
+  },
+  {
+    "title": "SaaS Forge - Python/React SaaS boilerplate",
+    "summary": "A modular, ready-to-use SaaS application boilerplate that helps you create your next SaaS application with Python for the backend and ReactJS for the frontend. It features JWT authentication, a RESTful API, a responsive design, and includes components like login, register, email confirmation, and a dashboard. It also supports payment integration, social logins, and is Heroku and AWS Elastic Beanstalk friendly.",
+    "url": "https://www.saasforge.dev/",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "React.js",
+      "PostgreSQL",
+      "Python",
+      "Bootstrap"
+    ]
+  },
+  {
+    "title": "fullstackhero .NET 7 WebAPI Boilerplate",
+    "summary": "A comprehensive .NET 7 WebAPI boilerplate offering features like multitenancy, security, logging, caching, and database migrations. It supports various database providers and includes tools for API testing and deployment.",
+    "url": "https://fullstackhero.net/dotnet-webapi-boilerplate/general/getting-started/",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "Swagger",
+      "MySQL",
+      "Node.js",
+      "PostgreSQL",
+      ".NET",
+      "Azure AD",
+      "Hangfire",
+      "MSSQL",
+      "SignalR",
+      "Oracle"
+    ]
+  },
+  {
+    "title": "BoilerPro",
+    "summary": "BoilerPro is a SaaS boilerplate that accelerates the development of MVPs by providing prebuilt functionalities such as SEO-optimized landing pages, secure authentication with AWS Cognito, an admin dashboard for user management, and seamless payment integration with Stripe. It also includes file upload/download, database setup, transactional email, and protected API routes.",
+    "url": "https://boilerpro.co",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "Tailwind CSS",
+      "AWS CDK",
+      "AWS Lambda",
+      "AWS Amplify",
+      "AWS Cognito",
+      "AWS CloudWatch",
+      "AWS S3",
+      "DynamoDB",
+      "Next.js",
+      "AWS SES"
+    ]
+  },
+  {
+    "title": "AWS + React SaaS Template",
+    "summary": "End-to-end SaaS Template using AWS Amplify, Apollo Client, Chakra, and NextJS. It includes features like user authentication with Cognito, a GraphQL API with AppSync, and a scalable infrastructure using Pulumi and GitHub Actions.",
+    "url": "https://github.com/SimonHoiberg/saas-template",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "Apollo",
+      "AWS Amplify",
+      "AWS Cognito",
+      "DynamoDB",
+      "Next.js",
+      "AppSync",
+      "React.js",
+      "GitHub Actions",
+      "Chakra UI",
+      "Pulumi"
+    ]
+  },
+  {
+    "title": "Compose101 Jetpack Compose Boilerplate",
+    "summary": "Streamline your Android development with a comprehensive Jetpack Compose boilerplate, featuring seamless UI integration, effortless authentication, user management, localization, and monetization with RevenueCat. Includes lint rules for Kotlin and Jetpack Compose to ensure scalable and efficient app architecture.",
+    "url": "https://compose101.com/",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "Jetpack Compose",
+      "RevenueCat",
+      "Kotlin"
+    ]
+  },
+  {
+    "title": "Jumpstart Pro",
+    "summary": "Jumpstart Pro is a comprehensive Ruby on Rails SaaS template designed to accelerate product development. It includes features like integrated payment processors, multitenancy support, authentication, invoicing, notifications, and more. It is fully customizable and internationalized, supporting social logins and API integrations.",
+    "url": "https://jumpstartrails.com/",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "Ruby on Rails",
+      "Tailwind CSS",
+      "Turbo",
+      "Hotwire",
+      "Node.js"
+    ]
+  },
+  {
+    "title": "Boilerplate Node.js Application with Authentication APIs and Swagger Documentation",
+    "summary": "A Node.js boilerplate application featuring Sequelize ORM, authentication APIs, and comprehensive Swagger documentation.",
+    "url": "https://github.com/umar0645/nodejs-sequelize-auth-boilerplate-with-swagger",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "Node.js",
+      "Sequelize",
+      "Swagger"
+    ]
+  },
+  {
+    "title": "NuxtStarterAI",
+    "summary": "NuxtStarterAI is a boilerplate for building AI-powered applications using Nuxt.js, providing features like server-side rendering, static site generation, and seamless integration with AI models.",
+    "url": "https://nuxtstarter.ai",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "Node.js",
+      "Vue.js",
+      "Nuxt.js",
+      "JavaScript"
+    ]
+  },
+  {
+    "title": "next-supabase-stripe-starter",
+    "summary": "A SaaS boilerplate that integrates Supabase for database and authentication, Stripe for payments and subscriptions, and React Email for email handling. It includes prebuilt pages, webhooks for Stripe-Supabase synchronization, and uses Tailwindcss for styling.",
+    "url": "https://github.com/KolbySisk/next-supabase-stripe-starter",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "Tailwind CSS",
+      "Stripe",
+      "Supabase",
+      "ShadCN",
+      "Next.js",
+      "React.js",
+      "Vercel"
+    ]
+  },
+  {
+    "title": "SaaS Boilerplate",
+    "summary": "A SaaS boilerplate built on Laravel to streamline development with features like user authentication, subscription management with Stripe, role management, and multi-tenancy support.",
+    "url": "https://github.com/miracuthbert/saas-boilerplate",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "PHP",
+      "jQuery",
+      "Vue.js",
+      "Simple Line Icons",
+      "Laravel",
+      "Font Awesome",
+      "Bootstrap",
+      "Node.js"
+    ]
+  },
+  {
+    "title": "ShipFast",
+    "summary": "ShipFast is a NextJS boilerplate designed to help you quickly build and launch SaaS applications, AI tools, or other web apps. It includes features like payment processing, email integration, SEO optimization, and user authentication, allowing you to focus on building your business rather than integrating APIs.",
+    "url": "https://shipfa.st/",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "Lemon Squeezy",
+      "Stripe",
+      "TypeScript",
+      "Supabase",
+      "JavaScript",
+      "Magic Links",
+      "Next.js",
+      "Mailgun",
+      "Google Oauth",
+      "React.js",
+      "MongoDB"
+    ]
+  },
+  {
+    "title": "RapidSaaS Conduit",
+    "summary": "A Laravel SaaS boilerplate that provides features like subscription management, e-commerce carts, user roles, and analytics, built with Laravel best practices.",
+    "url": "https://rapidsaas.dev",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "Alpine.js",
+      "Tailwind CSS",
+      "FilamentPHP",
+      "Livewire",
+      "Laravel Cashier",
+      "Laravel"
+    ]
+  },
+  {
+    "title": "SaaS Boilerplate by Apptension",
+    "summary": "A ready-to-use, customizable, and well-tested open-source toolkit for building SaaS applications, featuring user authentication, email management, subscription and payment handling, multitenancy, CMS and OpenAI integration, and AWS-based scalable infrastructure.",
+    "url": "https://www.apptension.com/saas-boilerplate",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "OpenAI",
+      "AWS",
+      "Stripe",
+      "TypeScript",
+      "Django",
+      "React.js",
+      "Contentful",
+      "Python"
+    ]
+  },
+  {
+    "title": "NextStarterAI",
+    "summary": "NextStarterAI is a SaaS boilerplate designed to accelerate the development of AI-powered applications. It includes features such as user authentication, payment integration, and a responsive UI.",
+    "url": "https://nextstarter.ai",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "Tailwind CSS",
+      "Stripe",
+      "Next.js",
+      "Express.js",
+      "React.js",
+      "Node.js",
+      "MongoDB"
+    ]
+  },
+  {
+    "title": "KAppMaker",
+    "summary": "KAppMaker is a boilerplate for building Android and iOS apps quickly using Kotlin Multiplatform. It includes pre-built features like authentication, notifications, in-app purchases, and automated app publishing, allowing developers to focus on launching their apps efficiently.",
+    "url": "https://kappmaker.com/",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "Firebase",
+      "KMPNotifier",
+      "Ktor",
+      "Kotlin Multiplatform",
+      "Koin",
+      "RevenueCat",
+      "KMPAuth",
+      "Napier",
+      "Room",
+      "GitHub Actions",
+      "Compose Multiplatform",
+      "Voyager"
+    ]
+  },
+  {
+    "title": "Scale Safe",
+    "summary": "Scale Safe is a SaaS boilerplate designed to build scalable ETL workflows on Kubernetes using tools like Airbyte, Kestra, and Kubecost. It offers features such as orchestration, cost optimization, and everything-as-code with Terragrunt, and provides a flexible license for customization.",
+    "url": "https://scalesafe.app/",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "Kestra",
+      "Terraform",
+      "Kubecost",
+      "Google Cloud",
+      "Terragrunt",
+      "Kubernetes",
+      "Airbyte"
+    ]
+  },
+  {
+    "title": "SaaSitive | React and Django Tutorial",
+    "summary": "A comprehensive tutorial for building and deploying a SaaS application using React and Django. Features include server uptime monitoring, anomaly detection with machine learning, user authentication, payment integration, and secure cloud deployment.",
+    "url": "https://saasitive.com",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "AWS",
+      "PostgreSQL",
+      "Celery",
+      "Redux",
+      "TypeScript",
+      "Nginx",
+      "Django",
+      "Django REST Framework",
+      "Docker",
+      "React.js",
+      "Let's Encrypt",
+      "Python"
+    ]
+  },
+  {
+    "title": "Salable Next.js Starter",
+    "summary": "A starter template for integrating Salable in a Next.js project, featuring authentication with Auth.js, Prisma ORM, TailwindCSS for styling, and ESLint for code quality.",
+    "url": "https://github.com/Salable/nextjs-with-salable",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "Tailwind CSS",
+      "ESLint",
+      "Prisma ORM",
+      "Next.js",
+      "Auth.js"
+    ]
+  },
+  {
+    "title": "Volca SaaS Boilerplate and Starter Kit",
+    "summary": "Volca is a SaaS boilerplate and starter kit designed to accelerate development and deployment of SaaS applications. It features authentication, social sign-in, subscription management, CI/CD, multi-tenancy, logging, and serverless infrastructure as code. It includes a React dashboard, Node.js REST API, and a static landing page.",
+    "url": "https://volca.io",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "AWS CDK",
+      "AWS",
+      "AWS Lambda",
+      "PostgreSQL",
+      "Stripe",
+      "AWS Cognito",
+      "TypeScript",
+      "GitHub Actions",
+      "React.js",
+      "Node.js"
+    ]
+  },
+  {
+    "title": "WordPress Plugin Boilerplate",
+    "summary": "A foundation for building high-quality WordPress plugins, featuring a CLI generator for streamlined plugin creation and adherence to best practices.",
+    "url": "https://wppb.me/",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "WordPress",
+      "PHP",
+      "WP CLI"
+    ]
+  },
+  {
+    "title": "SaaS Startup Kit for Golang",
+    "summary": "Open-source project providing Golang libraries and boilerplate code for building scalable SaaS applications, featuring web app CRUD operations, signup and authentication, REST API with oAuth, AWS serverless infrastructure, and GitLab CI/CD integration.",
+    "url": "https://saasstartupkit.com/",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "Bootstrap",
+      "AWS Serverless",
+      "GitLab CI/CD",
+      "Golang"
+    ]
+  },
+  {
+    "title": "Quapp",
+    "summary": "Quapp is a SaaS boilerplate that provides essential features for building subscription-based applications, including user authentication, payment processing, and admin dashboards.",
+    "url": "https://www.quapp.dev/",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "Stripe",
+      "Express.js",
+      "React.js",
+      "Node.js",
+      "MongoDB"
+    ]
+  },
+  {
+    "title": "Bullet Train",
+    "summary": "Bullet Train is an open-source Ruby on Rails framework that provides a comprehensive set of features for building SaaS applications, including user authentication, team management, security and permissions, a Tailwind CSS theme, REST API, third-party integrations, and more.",
+    "url": "https://bullettrain.co",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "Ruby on Rails",
+      "Tailwind CSS",
+      "Grape",
+      "esbuild",
+      "CircleCI",
+      "PaperTrail",
+      "Devise",
+      "ActionCable",
+      "OpenAPI",
+      "Heroku",
+      "PostCSS",
+      "Knapsack Pro",
+      "CanCanCan"
+    ]
+  },
+  {
+    "title": "supastarter - SaaS starter kit for Next.js and Nuxt",
+    "summary": "The ultimate starter kit for building scalable and production-ready SaaS apps with features like authentication, payments, internationalization, email integration, customizable UI, and AI capabilities.",
+    "url": "https://supastarter.dev/",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "Vercel AI SDK",
+      "Tailwind CSS",
+      "Radix UI",
+      "Lemon Squeezy",
+      "Lucia Auth",
+      "SvelteKit",
+      "Stripe",
+      "Nuxt.js",
+      "tRPC",
+      "Prisma ORM",
+      "Next.js",
+      "Chargebee",
+      "Svelte"
+    ]
+  },
+  {
+    "title": "SaaS Boilerplate",
+    "summary": "Open source web app that provides basic SaaS features like server-side rendering, user authentication, transactional emails, file uploads, websockets, team management, and Stripe subscriptions, allowing developers to focus on unique product features.",
+    "url": "https://github.com/async-labs/saas",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "Material UI",
+      "TypeScript",
+      "MobX",
+      "Next.js",
+      "Express.js",
+      "Mongoose",
+      "React.js",
+      "MongoDB"
+    ]
+  },
+  {
+    "title": "Shaun's Ultimate Boilerplate (SUB)",
+    "summary": "A React and Firebase boilerplate that automates the setup process for both frontend and backend, enabling full-stack deployment in under 10 minutes. Features include Firebase integration, Vite for fast builds, CI/CD pipelines, Stripe payments, and a Next.js landing page.",
+    "url": "https://getsub.dev",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "Firebase",
+      "Tailwind CSS",
+      "Mixpanel",
+      "ESLint",
+      "Sentry",
+      "Semantic Release",
+      "DaisyUI",
+      "Stripe",
+      "TypeScript",
+      "Next.js",
+      "React.js",
+      "GitHub Actions",
+      "Prettier",
+      "Vite"
+    ]
+  },
+  {
+    "title": "IonFast",
+    "summary": "IonFast is a framework-agnostic Ionic template and boilerplate designed to accelerate the development of mobile applications. It provides a flexible and efficient starting point for building cross-platform apps with Ionic, offering pre-built components and a modular architecture.",
+    "url": "https://ionic-template.com",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "Ionic Framework",
+      "JavaScript"
+    ]
+  },
+  {
+    "title": "Shipped — Next.js Startup Boilerplate",
+    "summary": "A comprehensive Next.js boilerplate designed for busy founders to quickly launch startups. It includes features like customizable landing pages, payment collection, user authentication, email integration, and dashboards, all powered by modern technologies.",
+    "url": "https://shipped.club/",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "Tailwind CSS",
+      "Lemon Squeezy",
+      "Recharts",
+      "MDX",
+      "TypeScript",
+      "Prisma ORM",
+      "Supabase",
+      "Next.js",
+      "React.js",
+      "Chakra UI",
+      "NextAuth.js"
+    ]
+  },
+  {
+    "title": "Next.js SaaS Prisma PostgreSQL Auth Starter",
+    "summary": "A metered billing SaaS boilerplate using Next.js, Prisma, PostgreSQL, and Stripe, featuring authentication, subscription management, and a customizable user account system.",
+    "url": "https://github.com/juliankoehn/nextjs-saas-starter",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "Tailwind CSS",
+      "Lucia Auth",
+      "PostgreSQL",
+      "Stripe",
+      "Prisma ORM",
+      "ShadCN",
+      "Next.js"
+    ]
+  },
+  {
+    "title": "Next.js Boilerplate",
+    "summary": "A boilerplate for Next.js with App Router, Tailwind CSS, and TypeScript, featuring authentication, database integration, error monitoring, logging, multi-language support, and more. It prioritizes developer experience with tools like ESLint, Prettier, Vitest, Playwright, and Storybook.",
+    "url": "https://github.com/ixartz/Next-js-Boilerplate",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "VSCode",
+      "Sentry",
+      "Semantic Release",
+      "Storybook",
+      "PostgreSQL",
+      "React Hook Form",
+      "Tailwind CSS",
+      "Husky",
+      "Zod",
+      "Pino.js",
+      "Prettier",
+      "Commitlint",
+      "Percy",
+      "Testing Library",
+      "Drizzle ORM",
+      "ESLint",
+      "MySQL",
+      "TypeScript",
+      "Next.js",
+      "Codecov",
+      "GitHub Actions",
+      "Vitest",
+      "SQLite",
+      "Playwright",
+      "Clerk",
+      "Better Stack",
+      "Checkly",
+      "Lint-Staged",
+      "i18n"
+    ]
+  },
+  {
+    "title": "DirectoryKit",
+    "summary": "DirectoryKit is a Next.js-powered template for setting up a directory website on your own domain and hosting. It offers features like paid posts, ads, and affiliate monetization, along with admin management, user navigation, and community engagement tools.",
+    "url": "https://www.directorykit.xyz/",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "Tailwind CSS",
+      "Lemon Squeezy",
+      "Stripe",
+      "TypeScript",
+      "Prisma ORM",
+      "Next.js"
+    ]
+  },
+  {
+    "title": "Sjabloon",
+    "summary": "Sjabloon is a Ruby on Rails SaaS starter kit that provides professionally designed UI components, customizable themes, payment and authentication systems, admin dashboard, GDPR compliance, and third-party integrations to help developers build their apps faster.",
+    "url": "https://www.getsjabloon.com/",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "Ruby on Rails",
+      "Tailwind CSS",
+      "SMTP",
+      "PostgreSQL"
+    ]
+  },
+  {
+    "title": "Turbojet",
+    "summary": "Turbojet is a SaaS-in-a-Box code template built with Node.js & Express, offering features like team management, database support, mobile readiness, user impersonation, admin dashboard, Stripe integration, and more. It provides a clean project architecture based on industry best practices, designed for quick development and easy understanding.",
+    "url": "https://www.turbojet.co/",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "Knex.js",
+      "MySQL",
+      "SQL Server",
+      "PostgreSQL",
+      "Handlebars",
+      "Stripe",
+      "Express.js",
+      "Hotwire",
+      "Passport.js",
+      "Bootstrap",
+      "Node.js",
+      "Oracle"
+    ]
+  },
+  {
+    "title": "Flask App Builder",
+    "summary": "A simple and rapid application development framework built on top of Flask, featuring detailed security, auto CRUD generation, Google charts integration, and extensive configuration options.",
+    "url": "https://github.com/dpgaspar/Flask-AppBuilder",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "OpenID",
+      "SQLAlchemy",
+      "Select2",
+      "Datepicker",
+      "MongoEngine",
+      "flask-jwt-extended",
+      "Jinja",
+      "Bootstrap",
+      "Font Awesome",
+      "Flask",
+      "LDAP",
+      "Python"
+    ]
+  },
+  {
+    "title": "Starter SaaS boilerplate",
+    "summary": "A production-ready SaaS template with Go/Node API and React frontend, featuring subscription management, Stripe integration, user accounts with subdomains, and customizable components.",
+    "url": "https://www.startersaas.com/",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "Gofiber",
+      "recoil",
+      "react-bootstrap",
+      "Golang",
+      "React Query",
+      "react-i18next",
+      "Stripe",
+      "Express.js",
+      "React.js",
+      "Node.js",
+      "MongoDB",
+      "node-cron",
+      "React Hook Form"
+    ]
+  },
+  {
+    "title": "Parthenon The Symfony SaaS Boilerplate",
+    "summary": "Parthenon is a collection of modules for Symfony applications, providing functionalities like user management, payment integration, admin system, team management, multi-step forms, A/B testing, invoicing, and more. It aims to help build SaaS applications quickly and efficiently.",
+    "url": "https://getparthenon.com",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "PHP",
+      "MySQL",
+      "PostgreSQL",
+      "DocRaptor",
+      "Stripe",
+      "Ansible",
+      "Symfony",
+      "mpdf",
+      "MongoDB"
+    ]
+  },
+  {
+    "title": "SupaWrapper",
+    "summary": "SupaWrapper is a React Native boilerplate designed to help developers quickly create AI-powered mobile apps. It offers features like user authentication with Supabase, payment processing with Adapty, customizable AI models, robust data security, and beginner-friendly setup. The boilerplate includes ready-to-use sample apps and supports secure file storage and edge functions for API key protection.",
+    "url": "https://supawrapper.com",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "Tamagui",
+      "OpenAI",
+      "Adapty",
+      "Supabase",
+      "React Native"
+    ]
+  },
+  {
+    "title": "Breakneck",
+    "summary": "Breakneck is a .NET SaaS starter kit designed for speed and scalability, handling authentication, billing, and architecture to help developers focus on unique features. It offers a minimalistic approach with tools like FastEndpoints, JWT/ApiKey Auth, and Stripe integration for billing, along with automated testing and background job management.",
+    "url": "https://breakneck.dev",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "FastEndpoints",
+      ".NET",
+      "Stripe",
+      "Microsoft Identity",
+      "TestContainers",
+      "Ef Core",
+      "Hangfire",
+      "C#"
+    ]
+  },
+  {
+    "title": "ShipWithDjango",
+    "summary": "ShipWithDjango is a comprehensive Django boilerplate designed to help developers quickly build and deploy web applications. It includes features like user authentication, payment integration, background tasks, AI-powered creativity, and more, all configured for rapid development and deployment.",
+    "url": "https://shipwithdjango.com/",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "Tailwind CSS",
+      "SMTP",
+      "Sentry",
+      "OpenAI DALL-E",
+      "Better Stack",
+      "Django",
+      "Docker",
+      "Python",
+      "Huey",
+      "Sendgrid"
+    ]
+  },
+  {
+    "title": "The SaaS Factory",
+    "summary": "A comprehensive platform offering Next.js 14 FullStack SaaS boilerplates with technologies like TypeScript, Prisma, and Tailwind, along with custom development services and a marketplace for buying and selling SaaS software.",
+    "url": "https://thesaasfactory.dev",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "Tailwind CSS",
+      "Next.js",
+      "TypeScript",
+      "Prisma ORM"
+    ]
+  },
+  {
+    "title": "Open SaaS",
+    "summary": "Open SaaS is a boilerplate project designed to help developers quickly build and deploy SaaS applications. It includes features such as user authentication, subscription management, and a responsive UI.",
+    "url": "https://opensaas.sh/",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "JavaScript",
+      "Express.js",
+      "React.js",
+      "Node.js",
+      "MongoDB"
+    ]
+  },
+  {
+    "title": "OneMix Remix Boilerplate by SaaS King",
+    "summary": "A comprehensive SaaS boilerplate offering features like landing page, authentication, database setup, payment integration, webhooks, email setup, SEO, and UI components to help launch your SaaS quickly.",
+    "url": "https://saask.ing",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "Tailwind CSS",
+      "Stripe",
+      "TypeScript",
+      "Prisma ORM",
+      "Supabase",
+      "Resend",
+      "Remix",
+      "Vite"
+    ]
+  },
+  {
+    "title": "JetShip - Laravel Boilerplate PRO",
+    "summary": "JetShip is a Laravel boilerplate designed to accelerate the launch of SaaS applications. It offers pre-built features such as user management, subscriptions, payments, and more, saving significant development time. Built on the TALL stack, it provides seamless authentication, frictionless payments, and a delightful admin panel, all ready for production deployment.",
+    "url": "https://demos.themeselection.com/jetship-laravel-boilerplate",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "Alpine.js",
+      "Tailwind CSS",
+      "Lemon Squeezy",
+      "FilamentPHP",
+      "Stripe",
+      "Livewire",
+      "Laravel",
+      "Socialite"
+    ]
+  },
+  {
+    "title": "Nana | Laravel SaaS Starter Kit",
+    "summary": "Nana is a Laravel starter kit offering features like subscription payments, invoice management, authentication, and a responsive dashboard. It supports Docker, Kubernetes, CI/CD, and includes test coverage, making it a comprehensive solution for SaaS development.",
+    "url": "https://saasstarterkit.app/",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "Redis",
+      "PHP",
+      "Tailwind CSS",
+      "MySQL",
+      "Helm",
+      "Nginx",
+      "Docker",
+      "Docker Compose",
+      "Font Awesome",
+      "Laravel",
+      "GitLab CI/CD",
+      "Kubernetes"
+    ]
+  },
+  {
+    "title": "LaunchFast",
+    "summary": "LaunchFast is a comprehensive ecosystem that simplifies web development by handling DevOps, performance, and security. It offers a pre-configured stack with features like authentication, databases, UI components, payments, testing, and security, enabling developers to go from idea to production in 10 minutes with one command.",
+    "url": "https://launchfast.pro/",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "Stripe",
+      "Playwright",
+      "Docker",
+      "Remix",
+      "GitHub Actions",
+      "Vitest"
+    ]
+  },
+  {
+    "title": "StartKit.AI",
+    "summary": "A comprehensive boilerplate for building AI SaaS applications quickly, featuring authentication, payments, REST API, email integration, React with Tailwind, and AI modules. It supports multiple AI providers and includes demo apps for chat, PDF, and image processing.",
+    "url": "https://startkit.ai",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "Tailwind CSS",
+      "Anthropic",
+      "Lemon Squeezy",
+      "OpenAI",
+      "Stripe",
+      "JavaScript",
+      "Pinecone",
+      "Groq",
+      "Llama",
+      "React.js",
+      "Node.js"
+    ]
+  },
+  {
+    "title": "Divjoy - The React Codebase Generator",
+    "summary": "Divjoy is an advanced codebase generator that helps developers build SaaS products and landing pages 10x faster. It provides a complete SaaS app with features like authentication, subscription payments, user settings, dashboard, and more, all integrated with a modern React app.",
+    "url": "https://divjoy.com",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "Auth0",
+      "Mixpanel",
+      "Stripe",
+      "Gatsby",
+      "Bootstrap",
+      "Tailwind CSS",
+      "Firebase Auth",
+      "Material UI",
+      "Cloud Firestore",
+      "Amplitude",
+      "Supabase",
+      "Bulma",
+      "Formspree",
+      "Vercel",
+      "Mailchimp",
+      "Next.js",
+      "Crisp",
+      "Segment",
+      "React.js",
+      "Netlify",
+      "Google Analytics"
+    ]
+  },
+  {
+    "title": "TurboStarter",
+    "summary": "TurboStarter is a comprehensive SaaS boilerplate that allows you to launch web, mobile, and browser extension applications in minutes. It offers features like streamlined authentication, one-click deployment, billing integration, and multi-platform development with a unified codebase. It also provides 25+ ready-to-use SaaS ideas and built-in support for AI services.",
+    "url": "https://turbostarter.dev",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "Turborepo",
+      "Tailwind CSS",
+      "Lemon Squeezy",
+      "Stripe",
+      "tRPC",
+      "Supabase",
+      "Next.js",
+      "Plasmo",
+      "React.js",
+      "Expo"
+    ]
+  },
+  {
+    "title": "The Django SaaS Template | SaaS Hammer",
+    "summary": "SaaS Hammer combines Django with Hotwire to enhance productivity and streamline product development. It offers features like payment integration with Stripe, user account management, a modern frontend workflow with Webpack and SWC, and a component library. It also includes a CMS solution with Wagtail, user impersonation, and tools for code quality and CI/CD.",
+    "url": "https://saashammer.com/",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "Tailwind CSS",
+      "Turbo",
+      "Stripe",
+      "TypeScript",
+      "Stimulus",
+      "Wagtail CMS",
+      "Django",
+      "Hotwire",
+      "Docker Compose",
+      "SWC",
+      "Python"
+    ]
+  },
+  {
+    "title": "SaaSykit - Laravel SaaS Starter Kit",
+    "summary": "SaaSykit is a Laravel-based boilerplate designed to help you launch your SaaS quickly. It includes features like subscription and one-time purchase management, multi-tenancy support, customizable styles, user authentication, a ready blog system, and a comprehensive admin panel. It supports payment providers like Stripe, Paddle, and Lemon Squeezy, and offers email integration with services like Mailgun, Postmark, and Amazon SES.",
+    "url": "https://saasykit.com/",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "Alpine.js",
+      "Tailwind CSS",
+      "PHP",
+      "Lemon Squeezy",
+      "Postmark",
+      "FilamentPHP",
+      "Stripe",
+      "Livewire",
+      "Mailgun",
+      "AWS SES",
+      "Laravel",
+      "Paddle"
+    ]
+  },
+  {
+    "title": "NextReady",
+    "summary": "NextReady is a digital boilerplate product designed to help developers quickly build web applications. It offers ready-to-use, type-safe components, authentication, payment integration, admin panel, and cloud storage, all built with a modern tech stack.",
+    "url": "https://nextready.dev",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "Tailwind CSS",
+      "Lemon Squeezy",
+      "Xendit",
+      "PostgreSQL",
+      "TypeScript",
+      "Prisma ORM",
+      "AWS S3",
+      "Next.js",
+      "Bun"
+    ]
+  },
+  {
+    "title": "DjaoDjin",
+    "summary": "DjaoDjin is a Platform-as-a-Service (PaaS) designed for product owners, web designers, and application developers to easily update and deploy changes. It offers features like secure billing-based access control, API-driven applications, and managed hosting services. The platform supports enterprise-ready features such as account and billing workflows, authentication, subscription management, and dashboards for user engagement.",
+    "url": "https://djaodjin.com/",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "Stripe",
+      "Django",
+      "Python",
+      "API"
+    ]
+  },
+  {
+    "title": "Swift Maker",
+    "summary": "Swift Maker is a SwiftUI boilerplate designed to help iOS developers quickly transform side projects into profitable apps. It offers pre-integrated services like In-App Purchases, AI integrations, authentication, and a secure backend, allowing developers to focus on unique app features and accelerate their path to profitability.",
+    "url": "https://swiftmaker.dev/",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "SwiftUI",
+      "Swift",
+      "Fastlane",
+      "Vapor"
+    ]
+  },
+  {
+    "title": "Next.js SaaS Starter Kit",
+    "summary": "A comprehensive boilerplate for building SaaS applications quickly, featuring authentication with 15+ social logins, payments integration with Stripe or Lemon Squeezy, admin panel with user impersonation, blog and documentation support, feedback collection, and more.",
+    "url": "https://usenextbase.com",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "Tailwind CSS",
+      "Lemon Squeezy",
+      "Sentry",
+      "MDX",
+      "Stripe",
+      "Playwright",
+      "React Email",
+      "Supabase",
+      "Next.js",
+      "PostHog Analytics",
+      "React.js",
+      "Framer",
+      "Google Analytics",
+      "Vitest"
+    ]
+  },
+  {
+    "title": "NextSaaS",
+    "summary": "NextSaaS is an all-in-one boilerplate designed to transform your product into a SaaS application quickly. It features authentication and account management, payment and subscription integration with Stripe, a customizable design system using Tailwind CSS and DaisyUI, a Prisma-powered database integration, email and newsletter systems, a full-featured CMS, and deployment tools with AI-ready architecture.",
+    "url": "https://nextsaas.live",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "Tailwind CSS",
+      "DaisyUI",
+      "Netlify",
+      "Stripe",
+      "Prisma ORM",
+      "FastAPI",
+      "Next.js",
+      "Docker",
+      "React.js",
+      "Python",
+      "Vercel",
+      "NextAuth.js"
+    ]
+  },
+  {
+    "title": "SupaNuxt SaaS",
+    "summary": "SupaNuxt SaaS is a boilerplate for building SaaS applications with features like user management, schema and DB management, config management, multi-user accounts, plans and pricing, Stripe payments integration, and AI note generation. It uses technologies like Nuxt 3, Supabase, Prisma, TRPC, Pinia, Stripe, Tailwind, daisyUI, and OpenAI.",
+    "url": "https://github.com/JavascriptMick/supanuxt-saas",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "Pinia",
+      "Tailwind CSS",
+      "OpenAI",
+      "daisyUI",
+      "Stripe",
+      "Nuxt.js",
+      "Prisma ORM",
+      "Supabase",
+      "TRPC"
+    ]
+  },
+  {
+    "title": "ALPack",
+    "summary": "ALPack is an all-in-one solution for building efficient web applications featuring GraphQL API, authentication and authorization, dynamic emails with React, and a modern UI with Mantine.",
+    "url": "https://github.com/apptension/ALPack",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "Mantine",
+      "Apollo",
+      "NX",
+      "Bitbucket Pipelines",
+      "Storybook",
+      "PostgreSQL",
+      "GitHub Actions",
+      "React Email",
+      "TypeScript",
+      "TypeGraphQL",
+      "Next.js",
+      "Docker",
+      "Vercel",
+      "React.js",
+      "Node.js",
+      "GraphQL",
+      "NextAuth.js",
+      "TypeORM"
+    ]
+  },
+  {
+    "title": "SaaStr",
+    "summary": "SaaStr is a SaaS boilerplate designed to help developers quickly kickstart their SaaS projects. It includes features like JWT authentication, OAuth via multiple providers, Stripe subscription management, and mailing for various account events. Built with Adonis JS for the backend and React Starter Kit for the frontend, it provides a solid foundation for both professionals and beginners.",
+    "url": "https://github.com/aloysius-tim/saas-react-starter-kit-boilerplate",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "PostgreSQL",
+      "Stripe",
+      "Argon Dashboard",
+      "Docker",
+      "Adonis JS",
+      "Node.js",
+      "Redux",
+      "Ant Design",
+      "React.js"
+    ]
+  },
+  {
+    "title": "SaaSWeb, Laravel 6 & vue SaaS Starter kit",
+    "summary": "SaaSWeb provides a comprehensive starter kit for single and multi-tenant SaaS projects using Laravel and Vue.js. It includes features like authentication, subscriptions, billing, team management, invoices, support tickets, notifications, user profiles, API, two-factor authentication, and an admin panel for managing plans, coupons, roles, and permissions.",
+    "url": "https://codecanyon.net/item/saasweb-laravel-58-vue-saas-starter-kit/24302103",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "SQL",
+      "PHP",
+      "Vue.js",
+      "JavaScript",
+      "Laravel"
+    ]
+  },
+  {
+    "title": "Electrik",
+    "summary": "Electrik is a full-featured and open-source starter-kit for SaaS applications, supporting teams, subscription billing via Stripe, user management, user profiles, and a bare-bones dashboard.",
+    "url": "https://github.com/electrikhq/electrik",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "Tailwind CSS",
+      "electrik/slate",
+      "Livewire",
+      "Laravel"
+    ]
+  },
+  {
+    "title": "Ionstarter",
+    "summary": "Ionstarter provides starter templates for Ionic Framework and Capacitor, allowing developers to build unlimited apps for Android, iOS, and Web with features like Firebase integration, SQLite support, authentication, storage, push notifications, and in-app purchases.",
+    "url": "https://ionstarter.dev/",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "Angular",
+      "Firebase",
+      "SQLite",
+      "Ionic Framework",
+      "Capacitor"
+    ]
+  },
+  {
+    "title": "Enterprise SaaS Starter Kit",
+    "summary": "The Open Source Next.js SaaS boilerplate for Enterprise SaaS app development, featuring account creation, SAML SSO, team management, webhooks, audit logs, payments, and more.",
+    "url": "https://github.com/boxyhq/saas-starter-kit",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "Tailwind CSS",
+      "Retraced",
+      "PostgreSQL",
+      "Svix",
+      "Stripe",
+      "TypeScript",
+      "Prisma ORM",
+      "Playwright",
+      "Next.js",
+      "SAML Jackson",
+      "Docker",
+      "React.js",
+      "NextAuth.js"
+    ]
+  },
+  {
+    "title": "Project Enferno",
+    "summary": "A Python framework based on Flask with built-in features like user authentication, Docker deployment, Celery task queue, Redis caching, SQLAlchemy ORM, and more.",
+    "url": "https://enferno.io/",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "Redis",
+      "SQLAlchemy",
+      "Celery",
+      "Docker",
+      "Flask",
+      "Python"
+    ]
+  },
+  {
+    "title": "Artiplate",
+    "summary": "Artiplate is a Laravel SaaS boilerplate designed to help you quickly launch your startup with features like user authentication, subscription billing, and team management.",
+    "url": "https://artiplate.co/",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "PHP",
+      "JavaScript",
+      "MySQL",
+      "Laravel"
+    ]
+  },
+  {
+    "title": "SaaS Starter: A SvelteKit Boilerplate/Template",
+    "summary": "A feature-rich SaaS boilerplate offering user authentication, user dashboard, marketing site, blog engine, billing/subscriptions, pricing page, search, emails, and more. It provides lightning performance with pre-rendered pages and a delightful developer experience using SvelteKit, Tailwind, DaisyUI, Postgres, and Supabase.",
+    "url": "https://github.com/CriticalMoments/CMSaasStarter",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "Tailwind CSS",
+      "Cloudflare Workers",
+      "DaisyUI",
+      "Cloudflare Pages",
+      "PostgreSQL",
+      "SvelteKit",
+      "Stripe",
+      "Supabase"
+    ]
+  },
+  {
+    "title": "Appliful",
+    "summary": "Appliful is a SaaS boilerplate that allows you to build and launch AI-powered web apps quickly. It includes features like user authentication, database integration, payment processing, email setup, AI integrations, and more, saving you significant development time.",
+    "url": "https://appliful.com/",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "Tailwind CSS",
+      "Stripe",
+      "Supabase",
+      "ShadCN",
+      "Next.js",
+      "Replicate",
+      "Node.js"
+    ]
+  },
+  {
+    "title": "SaaS Pegasus",
+    "summary": "SaaS Pegasus is a Django-backed SaaS boilerplate that provides a comprehensive foundation for building SaaS applications. It includes features like user authentication, team management, subscription billing with Stripe, e-commerce, multi-tenancy, API ecosystem, and more. It supports various front-end frameworks and offers tools for deployment, testing, and internationalization.",
+    "url": "https://www.saaspegasus.com/",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "Tailwind CSS",
+      "Sentry",
+      "Celery",
+      "Stripe",
+      "TypeScript",
+      "JavaScript",
+      "Wagtail CMS",
+      "Django",
+      "Docker",
+      "Bootstrap",
+      "Bulma",
+      "React.js",
+      "HTMX",
+      "Python",
+      "Sass"
+    ]
+  },
+  {
+    "title": "Flutter Boilerplate",
+    "summary": "Flutter Boilerplate is a comprehensive starting template for building production-ready apps with Flutter. It includes over 30 integrated features such as authentication, Firebase integration, monetization, ads, subscriptions, user management, and more, allowing developers to focus on specific business logic and unique functionalities.",
+    "url": "https://www.flutterboilerplate.com",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "Firebase",
+      "Admob",
+      "Flutter",
+      "RevenueCat"
+    ]
+  },
+  {
+    "title": "supastarter",
+    "summary": "The ultimate SvelteKit starter kit for scalable and production-ready SaaS apps, providing features like authentication, payments, i18n, mails, and more to save development time and focus on customer needs.",
+    "url": "https://supastarter.dev/sveltekit",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "Lemon Squeezy",
+      "SvelteKit",
+      "Stripe",
+      "Nuxt.js",
+      "tRPC",
+      "Hugging Face",
+      "Plunk",
+      "Tailwind CSS",
+      "LangChain",
+      "Chargebee",
+      "Nodemailer",
+      "Radix UI",
+      "OpenAI",
+      "Prisma ORM",
+      "Next.js",
+      "Svelte",
+      "Vercel AI SDK",
+      "Postmark",
+      "Lucia Auth",
+      "Resend"
+    ]
+  },
+  {
+    "title": "YaSaas - Monetize your data",
+    "summary": "YaSaas is an open-source SaaS boilerplate built on Django REST Framework and React, offering features like Stripe subscription integration, user authentication, and a customizable admin dashboard for data monetization.",
+    "url": "https://github.com/roperi/yasaas/",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "Material UI",
+      "django-allauth",
+      "Stripe",
+      "TypeScript",
+      "django-cors-headers",
+      "Django",
+      "Django REST Framework",
+      "AWS SES",
+      "dj-user-login-history",
+      "django-auth-style",
+      "django-easy-audit",
+      "React.js",
+      "Google Analytics",
+      "django-jazzmin"
+    ]
+  },
+  {
+    "title": "Larafast - Laravel SaaS Starter Kit",
+    "summary": "A comprehensive starter kit for building SaaS applications with Laravel, featuring user authentication, subscription billing, and team management.",
+    "url": "https://larafast.com",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "PHP",
+      "JavaScript",
+      "MySQL",
+      "Laravel"
+    ]
+  },
+  {
+    "title": "SaaS Template",
+    "summary": "A free and open-source landing page template for SaaS businesses, built with React, TypeScript, Shadcn UI, and Tailwind CSS. It offers features to build and scale your business with ease.",
+    "url": "https://react-saas.com/",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "Tailwind CSS",
+      "ESLint",
+      "TypeScript",
+      "ShadCN",
+      "React.js",
+      "Node.js"
+    ]
+  },
+  {
+    "title": "Graphile Starter",
+    "summary": "Graphile Starter is an opinionated quick-start project for full-stack application development in React, Node.js, GraphQL, and PostgreSQL. It includes a user registration system, session management, job queue, and pre-configured tooling for tests and more.",
+    "url": "https://github.com/graphile/starter",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "PostGraphile",
+      "Graphile Migrate",
+      "Apollo",
+      "ESLint",
+      "PostgreSQL",
+      "TypeScript",
+      "GraphQL Code Generator",
+      "Express.js",
+      "Graphile Worker",
+      "Next.js",
+      "React.js",
+      "Node.js",
+      "Prettier",
+      "GraphQL",
+      "Ant Design"
+    ]
+  },
+  {
+    "title": "Saas UI",
+    "summary": "Saas UI is a React toolkit designed for building high-quality SaaS applications. It offers a free component library, production-ready templates, and starter kits. Features include themable and composable components, strict adherence to WAI-ARIA standards, and integration with tools like Chakra UI, React Hook Form, and React Table. It aims to reduce boilerplate code and enhance productivity.",
+    "url": "https://saas-ui.dev",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "Electron",
+      "Recharts",
+      "React Query",
+      "React Table",
+      "Next.js",
+      "React.js",
+      "Chakra UI",
+      "React Hook Form"
+    ]
+  },
+  {
+    "title": "SaaSgear",
+    "summary": "ReactJS and NodeJS SaaS boilerplate offering features like GraphQL API, Stripe subscription payments, team management, roles and permissions, authentication, cross-browser compatibility, and HTML email support.",
+    "url": "https://github.com/JSLancerTeam/saasgear",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "MJML",
+      "Tailwind CSS",
+      "Apollo",
+      "DayJS",
+      "Knex.js",
+      "MySQL",
+      "Stripe",
+      "TypeScript",
+      "Express.js",
+      "DraftJS",
+      "Mailgun",
+      "React.js",
+      "Node.js",
+      "Redux",
+      "React Hook Form"
+    ]
+  },
+  {
+    "title": "Velocity - Laravel React Starter Kit for SaaS Applications",
+    "summary": "A starter kit for building SaaS applications using React and Laravel, featuring full billing through Stripe and multi-tenant membership capabilities.",
+    "url": "https://pastaduck.gumroad.com/l/chbnv",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "MySQL",
+      "Stripe",
+      "JavaScript",
+      "Laravel",
+      "React.js"
+    ]
+  },
+  {
+    "title": "SaaS Starter",
+    "summary": "SaaS Starter is an open source full stack software-as-a-service online mart complete with real credit checkout, allowing users to search, sell, add to cart, and checkout grocery items. It includes features like JWT authentication, permissions, email sending, image uploading, and credit card charging.",
+    "url": "https://github.com/cedrickchee/saas-starter",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "Apollo",
+      "Stripe",
+      "Keystone",
+      "Prisma ORM",
+      "JavaScript",
+      "Styled Components",
+      "React.js",
+      "Node.js",
+      "GraphQL"
+    ]
+  },
+  {
+    "title": "Next JS SaaS Boilerplate",
+    "summary": "A full-stack React template to build SaaS projects with features like multi-tenancy, team support, authentication, roles & permissions, Stripe payments, customizable UI templates, admin dashboard, internationalization, and more.",
+    "url": "https://nextjs-boilerplate.com/pro-saas-starter-kit",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "Drizzle ORM",
+      "Tailwind CSS",
+      "ESLint",
+      "Sentry",
+      "Storybook",
+      "Playwright",
+      "TypeScript",
+      "ShadCN",
+      "Next.js",
+      "React.js",
+      "GitHub Actions",
+      "Prettier",
+      "Vitest"
+    ]
+  },
+  {
+    "title": "ASP.NET Zero",
+    "summary": "ASP.NET Zero is a starting point for new web applications with a modern UI and SOLID architecture, providing features like multi-tenancy, advanced authentication, and rapid application development with full source code.",
+    "url": "https://aspnetzero.com/",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "C#",
+      "ASP.NET",
+      "Visual Studio"
+    ]
+  },
+  {
+    "title": "Modern MERN",
+    "summary": "A Node.js SaaS boilerplate using the MERN stack to build products faster with features like authentication, multi-tenancy, payment integration, responsive UI components, and serverless deployment.",
+    "url": "https://modernmern.com",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "Tailwind CSS",
+      "Serverless Framework",
+      "ESLint",
+      "VSCode",
+      "AWS",
+      "Stripe",
+      "TypeScript",
+      "Prisma ORM",
+      "Next.js",
+      "Express.js",
+      "React.js",
+      "Node.js",
+      "MongoDB",
+      "Prettier"
+    ]
+  },
+  {
+    "title": "Streamline - Laravel Starter Kit",
+    "summary": "Streamline is a Laravel SaaS starter kit designed to help developers launch their SaaS applications quickly. It includes features like SEO optimization, payment processing with Lemon Squeezy, secure authentication, social logins, user management, and a customizable front-end with Tailwind CSS. It also offers a robust roles and permissions system, a landing page, and over 30 ready-to-use components.",
+    "url": "https://streamlinelaravel.com",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "Tailwind CSS",
+      "Lemon Squeezy",
+      "Filepond",
+      "Laravel"
+    ]
+  },
+  {
+    "title": "SaaSBold V1.3.x",
+    "summary": "SaaSBold is a full-stack, production-ready Next.js SaaS boilerplate and starter kit designed for rapid deployment and optimal developer experience. It features seamless one-click deployment, admin and user dashboards, Stripe for payments, MailChimp for newsletters, AI integration, and internationalization support.",
+    "url": "https://saasbold.com/",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "Tailwind CSS",
+      "OpenAI",
+      "PostgreSQL",
+      "Stripe",
+      "Prisma ORM",
+      "Mailchimp",
+      "Next.js",
+      "Sanity",
+      "React.js",
+      "Auth.js"
+    ]
+  },
+  {
+    "title": "supastarter - SaaS starter kit for Next.js and Nuxt",
+    "summary": "The ultimate starter kit for building scalable and production-ready SaaS apps with features like authentication, payments, internationalization, email integration, customizable UI, and AI capabilities.",
+    "url": "https://supastarter.dev/nextjs",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "Vercel AI SDK",
+      "Tailwind CSS",
+      "Radix UI",
+      "Lemon Squeezy",
+      "Lucia Auth",
+      "SvelteKit",
+      "Stripe",
+      "Nuxt.js",
+      "tRPC",
+      "Prisma ORM",
+      "Next.js",
+      "Chargebee",
+      "Svelte"
+    ]
+  },
+  {
+    "title": "Just Ship",
+    "summary": "A free and open-source Svelte 5 SaaS starter kit that includes authentication, payments, email, analytics, and more, allowing developers to quickly ship Svelte 5 apps.",
+    "url": "https://justship.today",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "Drizzle ORM",
+      "Turso",
+      "Postmark",
+      "daisyUI",
+      "SvelteKit",
+      "Stripe",
+      "PostHog Analytics",
+      "Svelte",
+      "Vercel"
+    ]
+  },
+  {
+    "title": "Next.js SaaS Kit",
+    "summary": "A boilerplate for building SaaS applications with features like authentication, subscription payments, and user management.",
+    "url": "https://saaskit.one/",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "Tailwind CSS",
+      "PostgreSQL",
+      "Stripe",
+      "Prisma ORM",
+      "Next.js",
+      "React.js",
+      "Node.js"
+    ]
+  },
+  {
+    "title": "Autostrada",
+    "summary": "Autostrada is a code generator for Golang projects that creates a fully-functioning application scaffold for Go web applications or APIs. It offers a tried-and-tested application structure, includes useful helpers for common tasks, and allows full control over the generated code. Users can customize their application scaffold to include only the features they need, reducing dependencies and maintenance. The generated code is MIT licensed, allowing free use without restrictions.",
+    "url": "https://autostrada.dev/",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "Chi",
+      "MySQL",
+      "PostgreSQL",
+      "Golang",
+      "SQLite",
+      "Flow",
+      "HttpRouter",
+      "Gorilla Mux"
+    ]
+  },
+  {
+    "title": "Native Express - React Native Boilerplate for Web Developers",
+    "summary": "Native Express is a React Native boilerplate designed for web developers to easily transition to mobile app development. It includes features like authentication, payments, styling, backend integration, notifications, and app submission tools. The boilerplate comes with a production-ready demo app, pre-built navigation, and essential screens, as well as support for dark mode and guideline conformance.",
+    "url": "https://native.express",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "NativeWind",
+      "Sentry",
+      "React Query",
+      "PostgreSQL",
+      "RevenueCat",
+      "Supabase",
+      "OneSignal",
+      "PostHog Analytics",
+      "Expo",
+      "Gluestack UI",
+      "React Native"
+    ]
+  },
+  {
+    "title": "SaaS Boilerplate",
+    "summary": "A comprehensive SaaS boilerplate offering user authentication, subscription management, and billing integration.",
+    "url": "https://horizon-ui.com/boilerplate",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "Stripe",
+      "JavaScript",
+      "Express.js",
+      "React.js",
+      "Node.js",
+      "MongoDB"
+    ]
+  },
+  {
+    "title": "Django Rocket",
+    "summary": "Django Rocket is a powerful SaaS boilerplate for quickly launching paywalled software with features like authentication, billing, subscriptions, and Stripe payment integration.",
+    "url": "https://github.com/ernestofgonzalez/djangorocket",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "Tailwind CSS",
+      "Stripe",
+      "Whitenoise",
+      "Django",
+      "Python"
+    ]
+  },
+  {
+    "title": "BuilderKit",
+    "summary": "Highly modular NextJS AI Boilerplate that allows you to ship an AI App super fast. It includes pre-built apps, robust deployable codebase, support for major AI models, authentication, payments, email integrations, landing pages, and admin dashboard.",
+    "url": "https://www.builderkit.ai",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "Tailwind CSS",
+      "Astria",
+      "OpenAI",
+      "Stable Diffusion",
+      "PostgreSQL",
+      "TypeScript",
+      "Supabase",
+      "Deepgram",
+      "Pinecone",
+      "Next.js",
+      "Claude",
+      "Mistral",
+      "Vercel"
+    ]
+  },
+  {
+    "title": "Marblism",
+    "summary": "Marblism is a full-stack NextJS app boilerplate that allows you to launch applications quickly with features like AI-generated database schema, authentication, OpenAI integration, and role-level permissions. It supports email and social logins, AWS S3 file uploads, and payment processing.",
+    "url": "https://www.marblism.com/",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "Next.js",
+      "OpenAI API",
+      "AWS S3",
+      "Mailjet"
+    ]
+  },
+  {
+    "title": "Wave",
+    "summary": "Wave is a Laravel starter kit designed to help you quickly build and launch a SaaS product. It includes features like authentication, user dashboards, marketing pages, an admin panel, a blog, user profiles, user roles, billing, and themes.",
+    "url": "https://devdojo.com/wave",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "Alpine.js",
+      "Tailwind CSS",
+      "Livewire",
+      "Laravel"
+    ]
+  },
+  {
+    "title": "AIO - React Native & Next Template",
+    "summary": "The Ultimate Cross-Platform Template for iOS, Android & Web. Features include Firebase Auth for authentication, Firebase Analytics, Stripe for web payments, RevenueCat for in-app purchases, Firestore database, NextJS for SEO, i18n for internationalization, Firebase Messaging for push notifications, and AppsFlyer for mobile measurement. Develop once, deploy anywhere with Expo, NextJS, TypeScript, Redux Toolkit, and more.",
+    "url": "https://allinonedev.com",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "Firebase Auth",
+      "Reanimated",
+      "NativeWind",
+      "Cloud Firestore",
+      "Stripe",
+      "TypeScript",
+      "RevenueCat",
+      "Solito",
+      "Moti",
+      "Next.js",
+      "AppsFlyer",
+      "i18n",
+      "Expo",
+      "Firebase Analytics",
+      "Redux",
+      "React Native",
+      "Firebase Messaging"
+    ]
+  },
+  {
+    "title": "SaaSphere NextJS SaaS Boilerplate",
+    "summary": "A comprehensive SaaS boilerplate built with Next.js, offering features like authentication, subscription management, and responsive design.",
+    "url": "https://saasphere.dev",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "Tailwind CSS",
+      "Next.js",
+      "Express.js",
+      "React.js",
+      "Node.js",
+      "MongoDB"
+    ]
+  },
+  {
+    "title": "SvelteLaunch",
+    "summary": "A comprehensive Svelte 5 boilerplate and development agency for launching SaaS, AI, or business apps quickly, offering features like customizable templates, AI integration, payment processing, authentication, and SEO optimization.",
+    "url": "https://sveltelaunch.io",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "Lemon Squeezy",
+      "PostgreSQL",
+      "Stripe",
+      "MariaDB",
+      "Tailwind CSS",
+      "Supabase",
+      "JavaScript",
+      "ShadCN",
+      "Claude",
+      "Mailgun",
+      "OpenAI",
+      "MySQL",
+      "TypeScript",
+      "Prisma ORM",
+      "CockroachDB",
+      "Svelte",
+      "Paddle",
+      "Sendgrid",
+      "Microsoft SQL Server",
+      "SQLite",
+      "MongoDB"
+    ]
+  },
+  {
+    "title": "NextJSDirectory",
+    "summary": "NextJSDirectory is a boilerplate designed to quickly launch directory websites, enabling users to earn recurring revenue through sponsorships, affiliations, or ads. It includes features like an admin interface, Stripe payment integration, and easy customization.",
+    "url": "https://nextjsdirectory.com/",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "Tailwind CSS",
+      "Stripe",
+      "TypeScript",
+      "Supabase",
+      "Clerk",
+      "Next.js"
+    ]
+  },
+  {
+    "title": "Laravel Spark",
+    "summary": "Laravel Spark is a complete recurring billing solution for Laravel applications, providing a starter-kit for SaaS applications with features like subscription plan management, customer billing portal, and support for payment gateways like Paddle and Stripe.",
+    "url": "https://spark.laravel.com",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "PHP",
+      "Vue.js",
+      "Stripe",
+      "Bootstrap",
+      "Laravel",
+      "Blade",
+      "Paddle",
+      "InertiaJS"
+    ]
+  },
+  {
+    "title": "Underscores",
+    "summary": "Underscores is a starter theme for WordPress designed for developers to create custom themes. It features ultra-minimal CSS, modern HTML5 templates, a helpful 404 template, custom template tags, and a responsive navigation script. It is meant for customization and not as a parent theme.",
+    "url": "https://underscores.me/",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "WordPress",
+      "PHP",
+      "JavaScript"
+    ]
+  },
+  {
+    "title": "Multi-tenant SaaS boilerplate for Laravel",
+    "summary": "A fully featured Laravel application skeleton with multi-tenancy, tenant signup flow, Cashier billing, and a Nova admin panel. It includes domain management, Ploi integration, and a tenant-aware test suite.",
+    "url": "https://tenancyforlaravel.com/saas-boilerplate/",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "Alpine.js",
+      "Tailwind CSS",
+      "Livewire",
+      "Nova",
+      "Cashier",
+      "Laravel"
+    ]
+  },
+  {
+    "title": "FastestEngineer",
+    "summary": "FastestEngineer is a fully-featured SaaS boilerplate app designed to help you build and launch SaaS applications quickly. It includes pre-built features such as authentication, settings, Stripe payments, blogging, documentation, and marketing pages. The boilerplate supports various technologies including Primate.js and Svelte, and offers integration with multiple frontend frameworks.",
+    "url": "https://fastest.engineer",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "Angular",
+      "PostgreSQL",
+      "Stripe",
+      "Twilio",
+      "Solid",
+      "Primate.js",
+      "SurrealDB",
+      "JavaScript",
+      "Mailgun",
+      "Marko",
+      "MySQL",
+      "TypeScript",
+      "React.js",
+      "Node.js",
+      "HTMX",
+      "Svelte",
+      "Vue.js",
+      "Handlebars",
+      "SQLite",
+      "Deno",
+      "Bun",
+      "MongoDB"
+    ]
+  },
+  {
+    "title": "React Native Boilerplate",
+    "summary": "A comprehensive solution for building cross-platform SaaS applications on iOS and Android using React Native, Expo, and TypeScript. It includes features like authentication, team support, multi-tenancy, CRUD operations, and integration with Nextless.js for web support.",
+    "url": "https://reactnativeboilerplate.com",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "Tailwind CSS",
+      "Serverless Framework",
+      "ESLint",
+      "REST API",
+      "Nextless.js",
+      "TypeScript",
+      "Next.js",
+      "Expo",
+      "Prettier",
+      "React Native"
+    ]
+  },
+  {
+    "title": "Angular NestJS - Saas Boilerplate SYNDROM",
+    "summary": "A comprehensive SaaS boilerplate that accelerates development by providing essential elements like admin and user dashboards, secure and scalable database API, OAuth integration, Stripe for payments, and more. It includes pre-built components and a clear architecture to quickly launch and scale your SaaS project.",
+    "url": "https://syndrom.io/",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "Angular",
+      "Firebase",
+      "PostgreSQL",
+      "Stripe",
+      "Prisma ORM",
+      "NestJS"
+    ]
+  },
+  {
+    "title": "Serverless SaaS - A React SaaS Boilerplate",
+    "summary": "Serverless SaaS is a starter kit designed to accelerate the development of SaaS applications. It includes features like authentication, payments, team management, transactional emails, and an admin dashboard. The boilerplate is fully customizable and extensible, allowing developers to focus on unique product features rather than basic functionalities.",
+    "url": "https://serverless.page",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "Firebase",
+      "Tailwind CSS",
+      "Postmark",
+      "Cloud Firestore",
+      "Stripe",
+      "TypeScript",
+      "Netlify CMS",
+      "Next.js",
+      "React.js",
+      "Cloud Functions"
+    ]
+  },
+  {
+    "title": "Next.js & Django SaaS Boilerplate",
+    "summary": "Empower enterprise solutions with a robust Next.js & Django boilerplate designed for peak performance, scalability, and reliability. Features include customizable authentication, Stripe payments, admin dashboard, email integration, and more, providing a production-ready foundation for fast-tracking SaaS development.",
+    "url": "https://thedevstarter.com/",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "Tailwind CSS",
+      "Google Authentication",
+      "Stripe",
+      "Django",
+      "Next.js",
+      "Django Ninja"
+    ]
+  },
+  {
+    "title": "Launchnow: Distribution first SaaS boilerplate",
+    "summary": "A comprehensive SaaS boilerplate using SvelteKit for frontend and NestJs for backend, designed to build SaaS, web apps, GPT actions, or AI tools. It includes features like payments, subscriptions, webhooks, user authentication, SEO optimization, and a headless CMS.",
+    "url": "https://www.launchnow.pro/",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "Tailwind CSS",
+      "PostgreSQL",
+      "SvelteKit",
+      "Prisma ORM",
+      "NestJS",
+      "OpenAPI"
+    ]
+  },
+  {
+    "title": "Robuste",
+    "summary": "Robuste is a SaaS boilerplate designed to build captivating apps effortlessly, turning data into delightful experiences. It offers essential utilities for seamless user experience, streamlined user access with essential pages, effortless integration with top backend solutions, and powerful plugins for enhanced development efficiency.",
+    "url": "https://robuste.dev",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "Firebase",
+      "Appwrite",
+      "Convex",
+      "TypeScript",
+      "Supabase",
+      "JavaScript"
+    ]
+  },
+  {
+    "title": "StartFast",
+    "summary": "StartFast is a dead-simple SaaS starter kit designed for quick setup with no learning curve. It offers a simple pay-per-use pricing model, passwordless MagicLink authentication, and Stripe Checkout integration. The Pro version includes AI-powered tools for blog and landing page generation, SEO analysis, and keyword research.",
+    "url": "https://startfast.cc",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "Tailwind CSS",
+      "PostgreSQL",
+      "Stripe",
+      "Supabase",
+      "Next.js"
+    ]
+  },
+  {
+    "title": "Rocket SaaS Boilerplate",
+    "summary": "Rocket is a SaaS boilerplate for building production-ready apps with Node.js, React, and MongoDB. It includes features like authentication, payments, teams, UI components, Docker support, and more, designed to accelerate the development of SaaS applications.",
+    "url": "https://rocketapp.me/",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "Tailwind CSS",
+      "Stripe",
+      "Docker",
+      "Passport.js",
+      "Mongoose",
+      "React.js",
+      "Node.js",
+      "MongoDB"
+    ]
+  },
+  {
+    "title": "LaunchYourApp React Native Boilerplate",
+    "summary": "A comprehensive React Native boilerplate that allows you to develop and launch a complete mobile app quickly. It includes features like authentication with Supabase, AI integration with OpenAI, pre-built components, in-app purchases, push notifications, and error tracking. It also offers extensive documentation and community support.",
+    "url": "https://launchyourapp.dev/",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "NativeWind",
+      "OpenAI",
+      "Sentry",
+      "Supabase",
+      "RevenueCat",
+      "Expo",
+      "React Native"
+    ]
+  },
+  {
+    "title": "Bedrock",
+    "summary": "Bedrock is a modern full-stack Next.js & GraphQL boilerplate designed to jumpstart SaaS products. It includes features like user authentication, subscription payments, team management, invitations, and email handling, all integrated with a modular setup for easy customization.",
+    "url": "https://bedrock.mxstbr.com/",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "ESLint",
+      "Stripe",
+      "TypeScript",
+      "Prisma ORM",
+      "Prettier",
+      "GraphQL Codegen",
+      "Next.js",
+      "Passport.js",
+      "URQL",
+      "GraphQL Yoga",
+      "Pothos",
+      "GraphQL"
+    ]
+  },
+  {
+    "title": "ULTIMATE BACKEND",
+    "summary": "An enterprise-scale advanced microservice pattern with GraphQL API and GRPC Microservices, supporting multi-tenancy SaaS, CQRS, OAuth2, event sourcing, and more, designed for scalable and production-ready applications.",
+    "url": "https://github.com/juicycleff/ultimate-backend",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "etcd",
+      "Event Store",
+      "GraphQL",
+      "NestCloud",
+      "Consul",
+      "Redis",
+      "GRPC",
+      "NATS Streaming",
+      "TypeScript",
+      "ArangoDB",
+      "Kubernetes",
+      "Node.js",
+      "Fastify",
+      "Apollo",
+      "NestJS",
+      "Express.js",
+      "Docker",
+      "GitLab CI/CD",
+      "MongoDB",
+      "Azure Pipeline"
+    ]
+  },
+  {
+    "title": "Open SaaS",
+    "summary": "Open SaaS is a boilerplate project designed to help developers quickly build and deploy SaaS applications. It includes features such as user authentication, subscription management, and a responsive UI.",
+    "url": "https://OpenSaaS.sh/",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "JavaScript",
+      "Express.js",
+      "React.js",
+      "Node.js",
+      "MongoDB"
+    ]
+  },
+  {
+    "title": "Ready SaaS",
+    "summary": "A Django boilerplate with core components for building SaaS applications quickly, featuring Stripe & Paypal integrations, subscription management, email setup, user authentication, background tasks, and deploy-ready setup.",
+    "url": "https://www.readysaas.app/",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "Tailwind CSS",
+      "Mailjet",
+      "Paypal",
+      "PostgreSQL",
+      "Celery",
+      "Stripe",
+      "Django",
+      "Mailgun",
+      "Heroku",
+      "Python",
+      "Google Analytics",
+      "Sendgrid"
+    ]
+  },
+  {
+    "title": "Carrot Seed SaaS Kit",
+    "summary": "Carrot Seed SaaS Kit provides a code foundation for SaaS products, offering features like user and account management, payment systems, multi-language support, and a component catalogue. It includes a ready-to-run git repo, regular updates, and is built on 13 years of experience. The kit supports web, mobile, and desktop apps with technologies like Django, Angular, and Docker.",
+    "url": "https://www.cnc.io/en/seed",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "Angular",
+      "Electron",
+      "Redis",
+      "PostgreSQL",
+      "Django",
+      "Docker",
+      "Nativescript",
+      "Kubernetes",
+      "Python",
+      "GraphQL"
+    ]
+  },
+  {
+    "title": "NextWrapper",
+    "summary": "NextWrapper is an AI-driven Next.js codebase generator that simplifies the process of creating landing pages, dashboards, blogs, waitlists, and more. It provides tools for building, deploying, and scaling SaaS applications quickly, leveraging AI for content generation and offering customizable templates.",
+    "url": "https://nextwrapper.com/",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "Tailwind CSS",
+      "Stack Auth",
+      "Lemon Squeezy",
+      "PostgreSQL",
+      "React Email",
+      "Prisma ORM",
+      "ShadCN",
+      "Resend",
+      "Next.js"
+    ]
+  },
+  {
+    "title": "PySaaS",
+    "summary": "PySaaS is a pure Python SaaS boilerplate that provides a codebase for building SaaS applications quickly. It includes features like user authentication, billing management, landing page, blog, and integrates with services like Supabase, Firebase, and Lemon Squeezy. It allows developers to focus on unique features while handling common functionalities.",
+    "url": "https://pysaas.io/",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "Firebase",
+      "Reflex",
+      "SQLite",
+      "Supabase",
+      "Next.js",
+      "Python",
+      "Google Analytics"
+    ]
+  },
+  {
+    "title": "Nodewood - Node.js & Vue.js SaaS Boilerplate & Starter Kit",
+    "summary": "Nodewood is a JavaScript SaaS Starter Kit that provides an application scaffold, user authentication, subscription management, and more, allowing developers to save weeks or months of development time.",
+    "url": "https://nodewood.com/",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "Tailwind CSS",
+      "ESLint",
+      "Vue.js",
+      "Knex.js",
+      "PostgreSQL",
+      "Stripe",
+      "JavaScript",
+      "Docker",
+      "Express.js",
+      "MassiveJS",
+      "Node.js"
+    ]
+  },
+  {
+    "title": "Rails Tabler Starter",
+    "summary": "Rails starter boilerplate designed for quick prototyping and development, featuring user authentication, role management, multiple user namespaces, and pre-built UI layouts.",
+    "url": "https://github.com/tarunvelli/rails-tabler-starter",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "Ruby on Rails",
+      "Redis",
+      "Sidekiq-scheduler",
+      "PostgreSQL",
+      "Brakeman",
+      "Sidekiq",
+      "Devise",
+      "Pundit",
+      "OmniAuth",
+      "Byebug",
+      "Annotate",
+      "Tabler"
+    ]
+  },
+  {
+    "title": "The Starter Kit by Advantch",
+    "summary": "A fully featured Django & React codebase for launching AI, Internal, or SaaS products quickly. Includes payments, emails, authentication, multi-tenancy, AI features, API, and a control panel.",
+    "url": "https://www.advantch.com/",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "OpenAI",
+      "Stripe",
+      "Django",
+      "React.js",
+      "InertiaJS"
+    ]
+  },
+  {
+    "title": "Django SaaS Boilerplate",
+    "summary": "A production-ready Django SaaS boilerplate that includes features like a landing page, payment integration, blog, user model, sitemap, and more, allowing developers to focus on core functionality and reduce repetitive coding tasks.",
+    "url": "https://github.com/PaulleDemon/Django-SAAS-Boilerplate",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "Firebase",
+      "Tailwind CSS",
+      "Google Cloud Storage",
+      "PostgreSQL",
+      "Railway.app",
+      "Stripe",
+      "Trix WYSIWYG editor",
+      "Render.com",
+      "Django",
+      "Python",
+      "Vercel"
+    ]
+  },
+  {
+    "title": "webappboost",
+    "summary": "webappboost is a minimalistic yet powerful Next.js template designed to accelerate the launch of SaaS projects. It includes preconfigured tools for user authentication, content management, payment processing, email communications, and analytics. The template is SEO-friendly, PWA-ready, and supports internationalization, making it a comprehensive starter kit for modern web applications.",
+    "url": "https://webappboost.com",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "Google Tag Manager",
+      "Turborepo",
+      "Stripe",
+      "commitlint",
+      "Tailwind CSS",
+      "ShadCN",
+      "Prettier",
+      "Vercel",
+      "NextAuth.js",
+      "Radix UI",
+      "lint-staged",
+      "ESLint",
+      "OpenAI",
+      "TypeScript",
+      "Prisma ORM",
+      "Next.js",
+      "Sanity",
+      "Sendgrid",
+      "MongoDB",
+      "Secretlint"
+    ]
+  },
+  {
+    "title": "DeployFast",
+    "summary": "DeployFast is a Terraform boilerplate designed to simplify the deployment of Next.js SaaS, AI tools, or web apps on AWS. It offers rapid deployment with a one-line command, integrates with any cloud database, and provides a scalable Elastic Beanstalk architecture. It includes features like automated DNS setup, secure secrets management, and a built-in CI/CD pipeline.",
+    "url": "https://deployfast.cloud",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "AWS",
+      "Terraform",
+      "AWS Secrets Manager",
+      "AWS CodePipeline",
+      "Elastic Beanstalk",
+      "Next.js",
+      "AWS Route53",
+      "Docker"
+    ]
+  },
+  {
+    "title": "Rocketlaunch",
+    "summary": "Rocketlaunch is a comprehensive SaaS starter kit designed to help you launch your SaaS quickly. It includes essential features such as authentication with Clerk, payment processing with Stripe, a customizable landing page, and a database powered by Prisma and Supabase. The kit is built with Next.js and TypeScript, providing a flexible and scalable infrastructure.",
+    "url": "https://www.rocket-launch.dev/",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "Stripe",
+      "TypeScript",
+      "Prisma ORM",
+      "Clerk",
+      "Supabase",
+      "Next.js"
+    ]
+  },
+  {
+    "title": "extro",
+    "summary": "Open source browser extension starter kit with features like full type-safety with TypeScript, authentication, storage, messaging, hot reloading, internationalization, analytics, and CI/CD pipelines. It is built using the latest React framework and focuses on code reuse and best practices.",
+    "url": "https://github.com/turbostarter/extro",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "Tailwind CSS",
+      "TypeScript",
+      "Supabase",
+      "ShadCN",
+      "OpenPanel",
+      "Next.js",
+      "Plasmo",
+      "Bun",
+      "Husky",
+      "Biome",
+      "React.js",
+      "React Hook Form"
+    ]
+  }
+]

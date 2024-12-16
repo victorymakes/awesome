@@ -2,27 +2,19 @@
 
 import React, { useState } from 'react';
 import { MultiSelect } from '@/components/multi-select';
-import { Cat, ChevronRight, Dog, Fish, Rabbit, Search, Turtle } from 'lucide-react';
+import { Search, XIcon } from 'lucide-react';
 import { useSearchParams } from 'next/navigation';
 import {
   Select,
   SelectContent,
   SelectItem,
+  SelectSeparator,
   SelectTrigger,
   SelectValue,
 } from '@/components/ui/select';
 import { Button } from '@/components/ui/button';
-import projects from '@/configuration/projects';
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardFooter,
-  CardHeader,
-  CardTitle,
-} from '@/components/ui/card';
-import { AspectRatio } from '@/components/ui/aspect-ratio';
-import Image from 'next/image';
+import { Badge } from '@/components/ui/badge';
+import { Separator } from '@/components/ui/separator';
 
 const tagOptions = [
   { value: 'react', label: 'React' },
@@ -40,27 +32,61 @@ const categoryOptions = [
   { value: 'ember', label: 'Ember' },
 ];
 
+const ValueSeparator = '|';
 export const AwsomeSearchForm = () => {
   const searchParams = useSearchParams();
-  const [category, setCategory] = React.useState(searchParams.get('category'));
-  const [tags, setTags] = React.useState(searchParams.get('tags')?.split(',') || []);
+  const [category, setCategory] = useState(searchParams.get('category') || '');
+  const [tags, setTags] = useState(searchParams.get('tags')?.split(ValueSeparator) || []);
 
   return (
     <form className={'w-full'} action="/" method="GET">
       <div className="mb-8 grid gap-4 md:grid-cols-2 xl:grid-cols-3">
-        <Select name={'category'}>
-          <SelectTrigger className="w-full text-muted-foreground">
-            <SelectValue placeholder="Select Category" />
-          </SelectTrigger>
-          <SelectContent>
-            {categoryOptions.map((item, i) => (
-              <SelectItem key={i} value={item.value}>
-                {item.label}
-              </SelectItem>
-            ))}
-          </SelectContent>
-        </Select>
-        <input name={'tags'} hidden value={tags.join('|')} />
+        <div className="relative w-full">
+          <Select name={'category'} value={category} onValueChange={setCategory}>
+            <SelectTrigger className="w-full text-muted-foreground ring-0 focus:!ring-transparent focus-visible:!ring-0">
+              <SelectValue placeholder="Select Category">
+                <Badge>{category}</Badge>
+              </SelectValue>
+            </SelectTrigger>
+            <SelectContent>
+              {categoryOptions.map((item, i) => (
+                <SelectItem key={i} value={item.value}>
+                  {item.label}
+                </SelectItem>
+              ))}
+              <SelectSeparator />
+              <Button
+                className="w-full px-2"
+                variant="ghost"
+                size="sm"
+                onClick={(e) => {
+                  e.stopPropagation();
+                  setCategory('');
+                }}
+              >
+                Clear
+              </Button>
+            </SelectContent>
+          </Select>
+          {category && (
+            <div
+              className={
+                'absolute right-8 top-1/2 flex -translate-y-1/2 items-center justify-between'
+              }
+            >
+              <button
+                onClick={() => {
+                  setCategory('');
+                }}
+                className="mx-2 rounded-sm text-muted-foreground hover:bg-accent hover:text-accent-foreground"
+              >
+                <XIcon className="h-4 w-4" />
+              </button>
+              <Separator orientation="vertical" className="mr-2 h-full min-h-6" />
+            </div>
+          )}
+        </div>
+        <input name={'tags'} hidden value={tags.join(ValueSeparator)} />
         <MultiSelect
           modalPopover={true}
           options={tagOptions}

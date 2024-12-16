@@ -17,7 +17,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <ThemeProvider>
           <main className="mx-auto">
             <Navbar />
-            <div id={'main'} className={'container py-16'}>
+            <div id={'main'} className={'container py-8'}>
               {children}
             </div>
             <Footer />
