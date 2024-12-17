@@ -21,11 +21,10 @@ interface Option {
   label: string;
 }
 
-const ValueSeparator = '|';
 export const AwsomeSearchForm = () => {
   const searchParams = useSearchParams();
   const [category, setCategory] = useState(searchParams.get('category') || '');
-  const [tags, setTags] = useState(searchParams.get('tags')?.split(ValueSeparator) || []);
+  const [tags, setTags] = useState(searchParams.getAll('tags'));
   const [tagOptions, setTagOptions] = useState<Option[]>([]);
   const [categoryOptions, setCategoryOptions] = useState<Option[]>([]);
 
@@ -52,6 +51,8 @@ export const AwsomeSearchForm = () => {
       setTagOptions(options);
     });
   }, []);
+
+  const defaultTags = tags.length === 1 && tags[0] === '' ? [] : tags;
 
   return (
     <form className={'w-full'} action="/" method="GET">
@@ -101,12 +102,12 @@ export const AwsomeSearchForm = () => {
             </div>
           )}
         </div>
-        <input name={'tags'} hidden value={tags.join(ValueSeparator)} />
+        <input name={'tags'} hidden value={tags} />
         <MultiSelect
+          defaultValue={defaultTags}
           modalPopover={true}
           options={tagOptions}
           onValueChange={setTags}
-          defaultValue={tags}
           placeholder="Select Tags"
           variant="inverted"
           animation={0}

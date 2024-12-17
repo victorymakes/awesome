@@ -14,9 +14,25 @@ import { AwsomeSearchForm } from '@/components/awsome-search-form';
 import { Skeleton } from '@/components/skeleton';
 import { awsomeService } from '@/service/awsome-service';
 import Link from 'next/link';
+import { AwsomePagination } from '@/components/awsome-pagination';
 
-export default async function Home() {
-  const pageData = await awsomeService.getAwsomeItems();
+export default async function Home({
+  params,
+  searchParams,
+}: {
+  params: Promise<{ slug: string }>;
+  searchParams: Promise<{ [key: string]: string | string[] | undefined }>;
+}) {
+  const parameters = await searchParams;
+  const page = Number(parameters.page) || 1;
+  const category = parameters.category as string;
+  let tags: string[];
+  if (typeof parameters.tags === 'string') {
+    tags = parameters.tags && parameters.tags.length > 0 ? [parameters.tags] : [];
+  } else {
+    tags = parameters.tags as string[];
+  }
+  const pageData = await awsomeService.getAwsomeItems(category, tags, page);
   const items = pageData.data;
   return (
     <div>
@@ -53,6 +69,8 @@ export default async function Home() {
           </Card>
         ))}
       </div>
+
+      <AwsomePagination page={pageData.page} total={pageData.total} url={''} className={'mt-8'} />
     </div>
   );
 }
