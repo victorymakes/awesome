@@ -23,7 +23,7 @@ interface Option {
 
 export const AwsomeSearchForm = () => {
   const searchParams = useSearchParams();
-  const [category, setCategory] = useState(searchParams.get('category') || '');
+  const [category, setCategory] = useState(searchParams.get('category') || undefined);
   const [tags, setTags] = useState(searchParams.getAll('tag'));
   const [tagOptions, setTagOptions] = useState<Option[]>([]);
   const [categoryOptions, setCategoryOptions] = useState<Option[]>([]);
@@ -56,7 +56,7 @@ export const AwsomeSearchForm = () => {
 
   return (
     <form className={'w-full'} action="/" method="GET">
-      <div className="mb-8 grid gap-4 md:grid-cols-2 xl:grid-cols-3">
+      <div className="mb-8 grid gap-4 xl:grid-cols-3">
         <div className="relative w-full">
           <Select name={'category'} value={category} onValueChange={setCategory}>
             <SelectTrigger className="w-full text-muted-foreground ring-0 focus:!ring-transparent focus-visible:!ring-0">
@@ -102,13 +102,10 @@ export const AwsomeSearchForm = () => {
             </div>
           )}
         </div>
-        {tags.map((tag) =>
-          tag ? <input key={tag} readOnly={true} name={'tag'} hidden value={tag} /> : null,
-        )}
         <MultiSelect
           value={tags}
           defaultValue={defaultTags}
-          modalPopover={true}
+          modalPopover={false}
           options={tagOptions}
           onValueChange={setTags}
           placeholder="Select Tags"
@@ -116,6 +113,9 @@ export const AwsomeSearchForm = () => {
           animation={0}
           maxCount={3}
         />
+        {tags.map((tag) =>
+          tag ? <input key={tag} readOnly={true} name={'tag'} hidden value={tag} /> : null,
+        )}
         <Button type={'submit'}>
           {' '}
           <Search />
