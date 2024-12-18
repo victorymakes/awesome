@@ -26,14 +26,16 @@ export const Navbar = () => {
           </NavigationMenuItem>
 
           {/* mobile */}
-          <span className="flex md:hidden">
+          <div className="flex md:hidden">
             <ModeToggle />
 
             <Sheet open={isOpen} onOpenChange={setIsOpen}>
               <SheetTrigger className="px-2">
-                <Menu className="flex h-5 w-5 md:hidden" onClick={() => setIsOpen(true)}>
-                  <span className="sr-only">Menu Icon</span>
-                </Menu>
+                <Menu
+                  aria-label={'Menu Icon'}
+                  className="flex h-5 w-5 md:hidden"
+                  onClick={() => setIsOpen(true)}
+                />
               </SheetTrigger>
 
               <SheetContent side={'right'}>
@@ -55,7 +57,7 @@ export const Navbar = () => {
                 </nav>
               </SheetContent>
             </Sheet>
-          </span>
+          </div>
 
           {/* desktop */}
           <nav className="hidden gap-2 md:flex">

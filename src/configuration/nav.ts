@@ -5,11 +5,11 @@ interface Route {
 
 export const routes: Route[] = [
   {
-    href: '#features',
+    href: '/blog',
     label: 'Blog',
   },
   {
-    href: '#faq',
+    href: '/faq',
     label: 'FAQ',
   },
 ];

@@ -24,7 +24,7 @@ interface Option {
 export const AwsomeSearchForm = () => {
   const searchParams = useSearchParams();
   const [category, setCategory] = useState(searchParams.get('category') || '');
-  const [tags, setTags] = useState(searchParams.getAll('tags'));
+  const [tags, setTags] = useState(searchParams.getAll('tag'));
   const [tagOptions, setTagOptions] = useState<Option[]>([]);
   const [categoryOptions, setCategoryOptions] = useState<Option[]>([]);
 
@@ -102,8 +102,11 @@ export const AwsomeSearchForm = () => {
             </div>
           )}
         </div>
-        <input name={'tags'} hidden value={tags} />
+        {tags.map((tag) =>
+          tag ? <input key={tag} readOnly={true} name={'tag'} hidden value={tag} /> : null,
+        )}
         <MultiSelect
+          value={tags}
           defaultValue={defaultTags}
           modalPopover={true}
           options={tagOptions}

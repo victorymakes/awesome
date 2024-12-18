@@ -8,22 +8,19 @@ import {
 import * as React from 'react';
 
 interface PagePrps extends React.ComponentProps<'nav'> {
-  page: number;
-  total: number;
-  url: string;
+  previous?: string;
+  next?: string;
 }
 
-export const AwsomePagination = ({ page, total, url, className }: PagePrps) => {
-  const hasPrevious = page - 1 >= 1;
-  const hasNext = page + 1 <= total;
+export const AwsomePagination = ({ previous, next, className }: PagePrps) => {
   return (
     <Pagination className={className}>
       <PaginationContent className={'flex w-full justify-center'}>
-        <PaginationItem className={hasPrevious ? '' : 'hidden'}>
-          <PaginationPrevious href={url + (page - 1)} />
+        <PaginationItem className={previous ? '' : 'hidden'}>
+          <PaginationPrevious href={previous} />
         </PaginationItem>
-        <PaginationItem className={hasNext ? '' : 'hidden'}>
-          <PaginationNext href={url + (page + 1)} />
+        <PaginationItem className={next ? '' : 'hidden'}>
+          <PaginationNext href={next} />
         </PaginationItem>
       </PaginationContent>
     </Pagination>
