@@ -14,43 +14,24 @@ const getItems = async () => {
   });
 };
 
-const getCategories = async () => {
-  const items = await (
-    await fetch(
-      'https://oonmigntisjxczfaulla.supabase.co/storage/v1/object/public/awsome-items/awesome-items.json',
-    )
-  ).json();
-  const categories = new Set();
+const getCategoryTagsMap = (items) => {
+  const categoryTagsMap = new Map();
   for (let item of items) {
-    categories.add(item.category);
+    const category = item.category;
+    const tags = categoryTagsMap.get(category) || [];
+    tags.push(...item.tags);
+    categoryTagsMap.set(category, tags);
   }
-  return Array.from(categories);
+  for (let key of categoryTagsMap.keys()) {
+    categoryTagsMap.set(key, Array.from(new Set(categoryTagsMap.get(key))));
+  }
+  return categoryTagsMap;
 };
 
-const getTags = async () => {
-  const items = await (
-    await fetch(
-      'https://oonmigntisjxczfaulla.supabase.co/storage/v1/object/public/awsome-items/awesome-items.json',
-    )
-  ).json();
-  const tags = new Set();
-  for (let item of items) {
-    for (let tag of item.tags) {
-      tags.add(tag);
-    }
-  }
-  return Array.from(tags);
-};
-
-// getTags().then((tags) => {
-//   console.log(JSON.stringify(tags));
-// });
-
-// getItems().then((items) => {
-//   //console.log(items);
-//   console.log(JSON.stringify(items));
-// });
-
-getCategories().then((categories) => {
-  console.log(JSON.stringify(categories));
+// init awsome items and the category tags mapping data
+getItems().then((items) => {
+  console.log(JSON.stringify(items));
+  const categoryTagsMap = getCategoryTagsMap(items);
+  console.log('\n\n\n\n\n');
+  console.log(JSON.stringify(Object.fromEntries(categoryTagsMap)));
 });
