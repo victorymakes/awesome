@@ -49,4 +49,3 @@ class AwsomeService {
 }
 
 export const awsomeService = new AwsomeService();
-export const TagStringSeparator = '|';

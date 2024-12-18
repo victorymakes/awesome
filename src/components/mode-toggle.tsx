@@ -18,7 +18,12 @@ export const ModeToggle = () => {
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
-        <Button aria-label={'Toggle theme'} asChild variant="ghost" size="icon">
+        <Button
+          aria-label={'Toggle theme'}
+          variant="ghost"
+          size="icon"
+          className={'ring-0 focus:!ring-transparent focus-visible:!ring-0'}
+        >
           {resolvedTheme === 'dark' ? (
             <Moon className="h-[1.2rem] w-[1.2rem] rotate-0 scale-100 transition-all" />
           ) : (

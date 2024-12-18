@@ -17,18 +17,21 @@ import Link from 'next/link';
 import { AwsomePagination } from '@/components/awsome-pagination';
 import { Badge } from '@/components/ui/badge';
 
-const getPageUrl = (
-  page: number,
-  total: number,
-  category: string,
-  tags: string[],
-  next: boolean,
-) => {
-  console.log(`page: ${page}`);
-  page = next ? page + 1 : page - 1;
-  return page >= 1 && page <= total
-    ? `/?page=${page}&category=${category}&${tags.map((tag) => (tag ? `tag=${tag}` : '')).join('&')}`
-    : undefined;
+const getTagsFromSearchParams = (parameters: { [key: string]: string | string[] | undefined }) => {
+  let tags: string[];
+  if (typeof parameters.tag === 'string') {
+    tags = parameters.tag && parameters.tag.length > 0 ? [parameters.tag] : [];
+  } else {
+    tags = parameters.tag ? (parameters.tag as string[]) : [];
+  }
+  return tags;
+};
+
+const getItems = async (parameters: { [key: string]: string | string[] | undefined }) => {
+  const page = Number(parameters.page) || 1;
+  const category = parameters.category ? (parameters.catagory as string) : undefined;
+  const tags = getTagsFromSearchParams(parameters);
+  return await awsomeService.getAwsomeItems(category, tags, page);
 };
 
 export default async function Home({
@@ -38,27 +41,12 @@ export default async function Home({
   params: Promise<{ slug: string }>;
   searchParams: Promise<{ [key: string]: string | string[] | undefined }>;
 }) {
-  const parameters = await searchParams;
-  const page = Number(parameters.page) || 1;
-  const category = parameters.category as string;
-  let tags: string[];
-  if (typeof parameters.tag === 'string') {
-    tags = parameters.tag && parameters.tag.length > 0 ? [parameters.tag] : [];
-  } else {
-    tags = parameters.tag ? (parameters.tag as string[]) : [];
-  }
-  const pageData = await awsomeService.getAwsomeItems(category, tags, page);
-  const items = pageData.data;
-
-  const previous = getPageUrl(page, pageData.total, category, tags, false);
-  const next = getPageUrl(page, pageData.total, category, tags, true);
-  console.log(`previous: ${previous}`);
-  console.log(`next: ${next}`);
+  const pageData = await getItems(await searchParams);
   return (
     <div>
       <AwsomeSearchForm />
       <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
-        {items.map((item, i) => (
+        {pageData.data.map((item, i) => (
           <Card key={i} className={'group flex flex-col justify-between hover:shadow-xl'}>
             <CardHeader>
               <AspectRatio ratio={16 / 9} className="bg-muted">
@@ -79,7 +67,7 @@ export default async function Home({
               <CardDescription>{item.summary}</CardDescription>
               <div className={'flex flex-wrap justify-start'}>
                 {item.tags.map((tag) => (
-                  <div className={'m-0.5'}>
+                  <div key={tag} className={'m-0.5'}>
                     <Badge variant="outline">{tag}</Badge>
                   </div>
                 ))}
@@ -97,7 +85,7 @@ export default async function Home({
         ))}
       </div>
 
-      <AwsomePagination previous={previous} next={next} className={'mt-8'} />
+      <AwsomePagination current={pageData.page} total={pageData.total} className={'mt-8'} />
     </div>
   );
 }
