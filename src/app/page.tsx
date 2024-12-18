@@ -58,7 +58,13 @@ export default async function Home({
                     className="h-full w-full rounded-md object-cover"
                   />
                 ) : (
-                  <Skeleton />
+                  <div
+                    className={
+                      'flex h-full flex-col justify-center p-4 text-center text-xl font-bold'
+                    }
+                  >
+                    <div>{item.title}</div>
+                  </div>
                 )}
               </AspectRatio>
             </CardHeader>
