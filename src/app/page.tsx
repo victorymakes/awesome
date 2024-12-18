@@ -11,7 +11,6 @@ import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 import { ChevronRight } from 'lucide-react';
 import { AwsomeSearchForm } from '@/components/awsome-search-form';
-import { Skeleton } from '@/components/skeleton';
 import { awsomeService } from '@/service/awsome-service';
 import Link from 'next/link';
 import { AwsomePagination } from '@/components/awsome-pagination';
@@ -74,7 +73,7 @@ export default async function Home({
               <div className={'flex flex-wrap justify-start'}>
                 {item.tags.map((tag) => (
                   <div key={tag} className={'m-0.5'}>
-                    <Badge variant="outline">{tag}</Badge>
+                    <Badge variant="secondary">{tag}</Badge>
                   </div>
                 ))}
               </div>
