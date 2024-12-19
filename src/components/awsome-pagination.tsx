@@ -34,12 +34,16 @@ export const AwsomePagination = ({ current, total, className }: PagePrps) => {
   return (
     <Pagination className={className}>
       <PaginationContent className={'flex w-full justify-center'}>
-        <PaginationItem className={previous ? '' : 'hidden'}>
-          <PaginationPrevious href={previous} />
-        </PaginationItem>
-        <PaginationItem className={next ? '' : 'hidden'}>
-          <PaginationNext href={next} />
-        </PaginationItem>
+        {previous ? (
+          <PaginationItem>
+            <PaginationPrevious href={previous} />
+          </PaginationItem>
+        ) : null}
+        {next ? (
+          <PaginationItem>
+            <PaginationNext href={next} />
+          </PaginationItem>
+        ) : null}
       </PaginationContent>
     </Pagination>
   );

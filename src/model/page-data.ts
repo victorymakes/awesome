@@ -1,4 +1,4 @@
-interface PageData<T> {
+export interface PageData<T> {
   page: number;
   total: number;
   data: T;

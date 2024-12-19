@@ -1,4 +1,4 @@
-interface AwsomeItem {
+export interface AwsomeItem {
   title: string;
   summary: string;
   url: string;

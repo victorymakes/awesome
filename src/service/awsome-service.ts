@@ -1,3 +1,6 @@
+import { AwsomeItem } from '@/model/awsome-item';
+import { PageData } from '@/model/page-data';
+
 class AwsomeService {
   async getCategories(): Promise<string[]> {
     return await (

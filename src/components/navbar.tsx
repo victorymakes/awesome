@@ -12,6 +12,7 @@ import { buttonVariants } from '@/components/ui/button';
 import { Menu } from 'lucide-react';
 import { ModeToggle } from '@/components/mode-toggle';
 import { routes } from '@/configuration/nav';
+import Link from 'next/link';
 
 export const Navbar = () => {
   const [isOpen, setIsOpen] = useState<boolean>(false);
@@ -20,9 +21,9 @@ export const Navbar = () => {
       <NavigationMenu className="mx-auto">
         <NavigationMenuList className="container flex h-14 w-screen justify-between px-4">
           <NavigationMenuItem className="flex font-bold">
-            <a rel="noreferrer noopener" href="/" className="ml-2 flex text-xl font-bold">
+            <Link rel="noreferrer noopener" href="/" className="ml-2 flex text-xl font-bold">
               AwesomeLists
-            </a>
+            </Link>
           </NavigationMenuItem>
 
           {/* mobile */}
@@ -62,7 +63,7 @@ export const Navbar = () => {
           {/* desktop */}
           <nav className="hidden gap-2 md:flex">
             {routes.map((route) => (
-              <a
+              <Link
                 rel="noreferrer noopener"
                 href={route.href}
                 key={route.label}
@@ -71,7 +72,7 @@ export const Navbar = () => {
                 })}`}
               >
                 {route.label}
-              </a>
+              </Link>
             ))}
           </nav>
 

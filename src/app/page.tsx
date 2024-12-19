@@ -33,11 +33,10 @@ const getItems = async (parameters: { [key: string]: string | string[] | undefin
   return await awsomeService.getAwsomeItems(category, tags, page);
 };
 
+export const runtime = 'edge';
 export default async function Home({
-  params,
   searchParams,
 }: {
-  params: Promise<{ slug: string }>;
   searchParams: Promise<{ [key: string]: string | string[] | undefined }>;
 }) {
   const pageData = await getItems(await searchParams);
