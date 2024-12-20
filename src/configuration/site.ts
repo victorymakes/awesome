@@ -1,21 +1,14 @@
 /** @type {import("pliny/config").PlinyConfig } */
 export const configuration = {
-  title: 'title',
+  title: 'AwesomeList',
   headerTitle: 'AwesomeLists',
-  description: 'description',
-  language: 'zh-cn',
+  description:
+    'AwesomeList collects all the boilerplate, template, library, tool that can speed up your project building to help you make your ideas come true fastly.',
+  language: 'en',
   theme: 'system', // system, dark or light
-  siteUrl: 'https://blog.bookplus.site',
-  logo: 'next.svg',
-  socialBanner: '/static/images/douban-book-plus.png',
-  email: 'many.books.one@gmail.com',
-  locale: 'zh-CN',
-  analytics: {
-    googleAnalytics: {
-      googleAnalyticsId: 'G-JR5PEMMRWB', // e.g. G-XXXXXXX
-    },
-  },
-  pagination: {
-    size: 10,
-  },
+  siteUrl: 'https://awesomelists.link',
+  logo: 'logo.png',
+  socialBanner: 'banner.png',
+  email: 'awsomelists@gmail.com',
+  locale: 'en_US',
 };

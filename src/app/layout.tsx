@@ -5,6 +5,47 @@ import { ThemeProvider } from '@/app/theme-provider';
 import { Navbar } from '@/components/navbar';
 import { ScrollToTop } from '@/components/scroll-to-top';
 import { Footer } from '@/components/footer';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  metadataBase: new URL(configuration.siteUrl),
+  title: {
+    default: configuration.title,
+    template: `%s | ${configuration.title}`,
+  },
+  description: configuration.description,
+  openGraph: {
+    title: configuration.title,
+    description: configuration.description,
+    url: './',
+    siteName: configuration.title,
+    images: [configuration.socialBanner],
+    locale: configuration.locale,
+    type: 'website',
+  },
+  alternates: {
+    canonical: './',
+    types: {
+      'application/rss+xml': `${configuration.siteUrl}/feed.xml`,
+    },
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
+  twitter: {
+    title: configuration.title,
+    card: 'summary_large_image',
+    images: [configuration.socialBanner],
+  },
+};
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (

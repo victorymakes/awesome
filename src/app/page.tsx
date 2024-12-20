@@ -15,6 +15,21 @@ import { awsomeService } from '@/service/awsome-service';
 import Link from 'next/link';
 import { AwsomePagination } from '@/components/awsome-pagination';
 import { Badge } from '@/components/ui/badge';
+import { genPageMetadata, PageProps } from '@/app/seo';
+import { Metadata, ResolvingMetadata } from 'next';
+
+export async function generateMetadata(
+  { searchParams }: PageProps,
+  parent: ResolvingMetadata,
+): Promise<Metadata> {
+  const parameters = await searchParams;
+  const category = parameters.category ? (parameters.catagory as string) : undefined;
+  const tags = getTagsFromSearchParams(parameters);
+
+  const title = `${category} | ${tags.join('|')}`;
+
+  return genPageMetadata({ title });
+}
 
 const getTagsFromSearchParams = (parameters: { [key: string]: string | string[] | undefined }) => {
   let tags: string[];
