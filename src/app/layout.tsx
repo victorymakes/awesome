@@ -6,6 +6,8 @@ import { Navbar } from '@/components/navbar';
 import { ScrollToTop } from '@/components/scroll-to-top';
 import { Footer } from '@/components/footer';
 import { Metadata } from 'next';
+import { GoogleAnalytics } from '@/components/analytics/google-analytics';
+import { MicrosoftClarity } from '@/components/analytics/microsoft-clarity';
 
 export const metadata: Metadata = {
   metadataBase: new URL(configuration.siteUrl),
@@ -53,6 +55,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <head>
         <title>{configuration.title}</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <GoogleAnalytics id={configuration.analytics.google.id} />
+        <MicrosoftClarity
+          id={configuration.analytics.microsoft.id}
+          content={configuration.analytics.microsoft.content}
+        />
       </head>
       <body className="bg-background pl-[calc(100vw-100%)] text-foreground antialiased">
         <ThemeProvider>
