@@ -69,16 +69,16 @@ export const Navbar = () => {
                 key={route.label}
                 className={`${buttonVariants({
                   variant: 'ghost',
+                  className: 'hover:bg-transparent',
                 })}`}
               >
                 {route.label}
               </Link>
             ))}
+            <div className="hidden gap-2 md:flex">
+              <ModeToggle />
+            </div>
           </nav>
-
-          <div className="hidden gap-2 md:flex">
-            <ModeToggle />
-          </div>
         </NavigationMenuList>
       </NavigationMenu>
     </header>

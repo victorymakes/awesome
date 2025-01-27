@@ -31,7 +31,7 @@ export const ModeToggle = () => {
       aria-label={'Toggle theme'}
       variant="ghost"
       size="icon"
-      className={'ring-0 focus:!ring-transparent focus-visible:!ring-0'}
+      className={'ring-0 hover:bg-transparent focus:!ring-transparent focus-visible:!ring-0'}
       onClick={switchTheme}
     >
       {resolvedTheme === 'dark' ? (

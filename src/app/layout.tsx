@@ -53,8 +53,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang={configuration.language} className="scroll-smooth" suppressHydrationWarning>
       <head>
-        <title>{configuration.title}</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <GoogleAnalytics id={configuration.analytics.google.id} />
         <MicrosoftClarity
           id={configuration.analytics.microsoft.id}

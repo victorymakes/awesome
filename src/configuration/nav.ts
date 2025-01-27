@@ -4,12 +4,12 @@ interface Route {
 }
 
 export const routes: Route[] = [
-  // {
-  //   href: '/blog',
-  //   label: 'Blog',
-  // },
-  // {
-  //   href: '/faq',
-  //   label: 'FAQ',
-  // },
+  {
+    href: '/blog',
+    label: 'Blog',
+  },
+  {
+    href: '/faq',
+    label: 'FAQ',
+  },
 ];
