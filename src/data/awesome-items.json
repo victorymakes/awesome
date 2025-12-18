@@ -2,10 +2,11 @@
   {
     "title": "LaunchSaaS",
     "summary": "The complete Next.js boilerplate with all you need to build your SaaS, AI tool, or any other web app and make your first $ online fast.",
-    "url": "https://mkdirs.com",
+    "url": "https://launchsaas.org",
     "category": "SaaS Boilerplate",
     "tags": [
       "Next.js",
+      "Better Auth",
       "ShadCN",
       "TailwindCSS",
       "Better Auth",
