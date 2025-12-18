@@ -23,7 +23,9 @@ class AwsomeService {
 
   async getAllAwsomeItems(): Promise<AwsomeItem[]> {
     try {
-      return await (await fetch(`${env.APP_URL}/awsome-items/awesome-items.json`)).json();
+      const url = `${env.APP_URL}/awsome-items/awesome-items.json`;
+      console.log('Fetching awesome items from URL:', url);
+      return await (await fetch(url)).json();
     } catch (error) {
       console.error(
         `Fetch awesome items error. ${JSON.stringify({
