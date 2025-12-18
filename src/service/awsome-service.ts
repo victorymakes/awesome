@@ -2,7 +2,7 @@ import { configuration } from '@/configuration/site';
 import { AwsomeItem } from '@/model/awsome-item';
 import { PageData } from '@/model/page-data';
 
-const BASE_URL = process.env.APP_URL || configuration.siteUrl;
+const BASE_URL = process.env.NEXT_PUBLIC_APP_URL || configuration.siteUrl;
 
 class AwsomeService {
   async getCategories(): Promise<string[]> {

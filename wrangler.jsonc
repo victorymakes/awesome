@@ -2,6 +2,7 @@
   "$schema": "./node_modules/wrangler/config-schema.json",
   "main": ".open-next/worker.js",
   "name": "awesome",
+  "keep_names": false,
   "compatibility_date": "2025-11-17",
   "compatibility_flags": ["nodejs_compat"],
   "assets": {
@@ -23,6 +24,6 @@
     },
   ],
   "vars": {
-    "APP_URL": "https://awesome.victoryhub.cc",
+    "NEXT_PUBLIC_APP_URL": "https://awesome.victoryhub.cc",
   },
 }
