@@ -3,6 +3,7 @@ export const configuration = {
   description:
     'AwesomeList collects all the boilerplate, template, library, tool that can speed up your project building to help you make your ideas come true fastly.',
   language: 'en',
+  author: 'Victory',
   theme: 'system',
   logo: 'logo.png',
   socialBanner: 'banner.png',
