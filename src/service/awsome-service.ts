@@ -3,9 +3,29 @@ import { AwsomeItem } from '@/model/awsome-item';
 import { PageData } from '@/model/page-data';
 
 class AwsomeService {
+  private async fetchJson<T>(url: string): Promise<T> {
+    const response = await fetch(url, {
+      cache: 'no-store',
+    });
+
+    if (!response.ok) {
+      const text = await response.text();
+      throw new Error(`HTTP ${response.status}: ${text.substring(0, 200)}`);
+    }
+
+    const contentType = response.headers.get('content-type');
+    if (!contentType?.includes('application/json')) {
+      const text = await response.text();
+      throw new Error(`Expected JSON but got ${contentType}: ${text.substring(0, 200)}`);
+    }
+
+    return await response.json();
+  }
+
   async getCategories(): Promise<string[]> {
     try {
-      return await (await fetch(`${env.APP_URL}/awsome-items/awsome-item-categories.json`)).json();
+      const url = `${env.APP_URL}/awsome-items/awsome-item-categories.json`;
+      return await this.fetchJson(url);
     } catch (error) {
       console.error('Fetch awesome item categories error.', error);
       throw error;
@@ -14,7 +34,8 @@ class AwsomeService {
 
   async getTags(): Promise<string[]> {
     try {
-      return await (await fetch(`${env.APP_URL}/awsome-items/awsome-item-tags.json`)).json();
+      const url = `${env.APP_URL}/awsome-items/awsome-item-tags.json`;
+      return await this.fetchJson(url);
     } catch (error) {
       console.error('Fetch awesome item tags error.', error);
       throw error;
@@ -25,7 +46,7 @@ class AwsomeService {
     try {
       const url = `${env.APP_URL}/awsome-items/awesome-items.json`;
       console.log('Fetching awesome items from URL:', url);
-      return await (await fetch(url)).json();
+      return await this.fetchJson(url);
     } catch (error) {
       console.error(
         `Fetch awesome items error. ${JSON.stringify({
