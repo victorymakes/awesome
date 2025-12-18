@@ -33,7 +33,6 @@ const getItems = async (parameters: { [key: string]: string | string[] | undefin
   return await awsomeService.getAwsomeItems(category, tags, page);
 };
 
-export const runtime = 'edge';
 export default async function Home({
   searchParams,
 }: {
@@ -41,9 +40,11 @@ export default async function Home({
 }) {
   const pageData = await getItems(await searchParams);
   return (
-    <div>
-      <AwsomeSearchForm />
-      <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
+    <div className="flex flex-col items-center">
+      <div className="w-full">
+        <AwsomeSearchForm />
+      </div>
+      <div className="grid w-full gap-4 md:grid-cols-2 xl:grid-cols-3">
         {pageData.data.map((item, i) => (
           <Card key={i} className={'group flex flex-col justify-between hover:shadow-xl'}>
             <CardHeader>
@@ -58,10 +59,39 @@ export default async function Home({
                 ) : (
                   <div
                     className={
-                      'flex h-full flex-col justify-center p-4 text-center text-xl font-bold'
+                      'relative flex h-full flex-col justify-center overflow-hidden p-4 text-center text-xl font-bold'
                     }
+                    style={{
+                      background: `
+                        radial-gradient(circle at 20% 50%, rgba(139, 92, 246, 0.3) 0%, transparent 50%),
+                        radial-gradient(circle at 80% 80%, rgba(59, 130, 246, 0.3) 0%, transparent 50%),
+                        linear-gradient(135deg, 
+                          hsl(var(--background)) 0%,
+                          hsl(var(--background)) 100%
+                        )
+                      `,
+                      backgroundImage: `
+                        repeating-linear-gradient(
+                          0deg,
+                          transparent,
+                          transparent 35px,
+                          rgba(139, 92, 246, 0.1) 35px,
+                          rgba(139, 92, 246, 0.1) 36px
+                        ),
+                        repeating-linear-gradient(
+                          90deg,
+                          transparent,
+                          transparent 35px,
+                          rgba(59, 130, 246, 0.1) 35px,
+                          rgba(59, 130, 246, 0.1) 36px
+                        )
+                      `,
+                    }}
                   >
-                    <div>{item.title}</div>
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent" />
+                    <div className="relative z-10 bg-gradient-to-r from-violet-400 via-blue-400 to-cyan-400 bg-clip-text text-2xl font-bold text-transparent drop-shadow-lg sm:text-3xl dark:from-violet-300 dark:via-blue-300 dark:to-cyan-300">
+                      {item.title}
+                    </div>
                   </div>
                 )}
               </AspectRatio>
@@ -89,7 +119,7 @@ export default async function Home({
         ))}
       </div>
 
-      <AwsomePagination current={pageData.page} total={pageData.total} className={'mt-8'} />
+      <AwsomePagination current={pageData.page} total={pageData.total} className={'mt-8 w-full'} />
     </div>
   );
 }

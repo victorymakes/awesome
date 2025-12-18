@@ -59,7 +59,7 @@ export const AwsomeSearchForm = () => {
       <div className="mb-8 grid gap-4 xl:grid-cols-3">
         <div className="relative w-full">
           <Select name={'category'} value={category} onValueChange={setCategory}>
-            <SelectTrigger className="w-full text-muted-foreground ring-0 focus:!ring-transparent focus-visible:!ring-0">
+            <SelectTrigger className="text-muted-foreground w-full ring-0 focus:!ring-transparent focus-visible:!ring-0">
               <SelectValue placeholder="Select Category">
                 <Badge>{category}</Badge>
               </SelectValue>
@@ -73,7 +73,7 @@ export const AwsomeSearchForm = () => {
               <SelectSeparator />
               <Button
                 className="w-full px-2"
-                variant="ghost"
+                variant="outline"
                 size="sm"
                 onClick={(e) => {
                   e.stopPropagation();
@@ -87,18 +87,19 @@ export const AwsomeSearchForm = () => {
           {category && (
             <div
               className={
-                'absolute right-8 top-1/2 flex -translate-y-1/2 items-center justify-between'
+                'absolute top-1/2 right-8 flex -translate-y-1/2 items-center justify-between'
               }
             >
-              <button
+              <Button
                 onClick={() => {
                   setCategory('');
                 }}
-                className="mx-2 rounded-sm text-muted-foreground hover:bg-accent hover:text-accent-foreground"
+                variant="ghost"
+                size="sm"
+                className="text-muted-foreground hover:text-foreground h-6 w-6 cursor-pointer p-0"
               >
                 <XIcon className="h-4 w-4" />
-              </button>
-              <Separator orientation="vertical" className="mr-2 h-full min-h-6" />
+              </Button>
             </div>
           )}
         </div>

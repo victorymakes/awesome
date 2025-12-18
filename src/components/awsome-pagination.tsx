@@ -13,12 +13,12 @@ interface PagePrps extends React.ComponentProps<'nav'> {
   total: number;
 }
 
-const getUrl = (currentPage: number, newPage: number, total: number) => {
+const getUrl = async (currentPage: number, newPage: number, total: number) => {
   if (newPage < 1 || newPage > total) {
     return undefined;
   }
 
-  const headerList = headers();
+  const headerList = await headers();
   let url = headerList.get('x-current-url') || '/';
   if (url.includes('page=')) {
     url = url.replaceAll(`page=${currentPage}`, `page=${newPage}`);
@@ -28,9 +28,9 @@ const getUrl = (currentPage: number, newPage: number, total: number) => {
   return url;
 };
 
-export const AwsomePagination = ({ current, total, className }: PagePrps) => {
-  const previous = getUrl(current, current - 1, total);
-  const next = getUrl(current, current + 1, total);
+export const AwsomePagination = async ({ current, total, className }: PagePrps) => {
+  const previous = await getUrl(current, current - 1, total);
+  const next = await getUrl(current, current + 1, total);
   return (
     <Pagination className={className}>
       <PaginationContent className={'flex w-full justify-center'}>

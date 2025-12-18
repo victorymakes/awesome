@@ -1,29 +1,20 @@
+import { configuration } from '@/configuration/site';
 import { AwsomeItem } from '@/model/awsome-item';
 import { PageData } from '@/model/page-data';
 
+const BASE_URL = process.env.APP_URL || configuration.siteUrl;
+
 class AwsomeService {
   async getCategories(): Promise<string[]> {
-    return await (
-      await fetch(
-        'https://oonmigntisjxczfaulla.supabase.co/storage/v1/object/public/awsome-items/awsome-item-categories.json',
-      )
-    ).json();
+    return await (await fetch(`${BASE_URL}/awsome-items/awsome-item-categories.json`)).json();
   }
 
   async getTags(): Promise<string[]> {
-    return await (
-      await fetch(
-        'https://oonmigntisjxczfaulla.supabase.co/storage/v1/object/public/awsome-items/awsome-item-tags.json',
-      )
-    ).json();
+    return await (await fetch(`${BASE_URL}/awsome-items/awsome-item-tags.json`)).json();
   }
 
   async getAllAwsomeItems(): Promise<AwsomeItem[]> {
-    return await (
-      await fetch(
-        'https://oonmigntisjxczfaulla.supabase.co/storage/v1/object/public/awsome-items/awesome-items.json',
-      )
-    ).json();
+    return await (await fetch(`${BASE_URL}/awsome-items/awesome-items.json`)).json();
   }
 
   async getAwsomeItems(

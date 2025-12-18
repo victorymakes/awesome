@@ -5,11 +5,11 @@ interface Route {
 
 export const routes: Route[] = [
   {
-    href: '/blog',
-    label: 'Blog',
-  },
-  {
     href: '/faq',
     label: 'FAQ',
+  },
+  {
+    href: 'https://github.com/victorymakes/awesome',
+    label: 'Github',
   },
 ];

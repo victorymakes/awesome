@@ -59,11 +59,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           content={configuration.analytics.microsoft.content}
         />
       </head>
-      <body className="bg-background pl-[calc(100vw-100%)] text-foreground antialiased">
+      <body className="bg-background text-foreground pl-[calc(100vw-100%)] antialiased">
         <ThemeProvider>
-          <main className="mx-auto">
+          <main className="mx-auto flex min-h-screen flex-col">
             <Navbar />
-            <div id={'main'} className={'container py-8'}>
+            <div id={'main'} className={'container mx-auto max-w-7xl flex-1 px-4 py-8'}>
               {children}
             </div>
             <Footer />
