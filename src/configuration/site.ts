@@ -1,14 +1,12 @@
-/** @type {import("pliny/config").PlinyConfig } */
 export const configuration = {
   title: 'AwesomeLists',
   description:
     'AwesomeList collects all the boilerplate, template, library, tool that can speed up your project building to help you make your ideas come true fastly.',
   language: 'en',
-  theme: 'system', // system, dark or light
-  siteUrl: 'https://boilerplate.victoryhub.cc',
+  theme: 'system',
   logo: 'logo.png',
   socialBanner: 'banner.png',
-  email: 'awsomelists@gmail.com',
+  email: 'victorylaunches@gmail.com',
   locale: 'en_US',
   analytics: {
     google: {

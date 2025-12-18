@@ -8,9 +8,10 @@ import { Footer } from '@/components/footer';
 import { Metadata } from 'next';
 import { GoogleAnalytics } from '@/components/analytics/google-analytics';
 import { MicrosoftClarity } from '@/components/analytics/microsoft-clarity';
+import { env } from '@/lib/env';
 
 export const metadata: Metadata = {
-  metadataBase: new URL(configuration.siteUrl),
+  metadataBase: new URL(env.APP_URL),
   title: {
     default: configuration.title,
     template: `%s | ${configuration.title}`,
@@ -28,7 +29,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: './',
     types: {
-      'application/rss+xml': `${configuration.siteUrl}/feed.xml`,
+      'application/rss+xml': `${env.APP_URL}/feed.xml`,
     },
   },
   robots: {

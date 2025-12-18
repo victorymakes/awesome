@@ -1,20 +1,18 @@
-import { configuration } from '@/configuration/site';
+import { env } from '@/lib/env';
 import { AwsomeItem } from '@/model/awsome-item';
 import { PageData } from '@/model/page-data';
 
-const BASE_URL = process.env.NEXT_PUBLIC_APP_URL || configuration.siteUrl;
-
 class AwsomeService {
   async getCategories(): Promise<string[]> {
-    return await (await fetch(`${BASE_URL}/awsome-items/awsome-item-categories.json`)).json();
+    return await (await fetch(`${env.APP_URL}/awsome-items/awsome-item-categories.json`)).json();
   }
 
   async getTags(): Promise<string[]> {
-    return await (await fetch(`${BASE_URL}/awsome-items/awsome-item-tags.json`)).json();
+    return await (await fetch(`${env.APP_URL}/awsome-items/awsome-item-tags.json`)).json();
   }
 
   async getAllAwsomeItems(): Promise<AwsomeItem[]> {
-    return await (await fetch(`${BASE_URL}/awsome-items/awesome-items.json`)).json();
+    return await (await fetch(`${env.APP_URL}/awsome-items/awesome-items.json`)).json();
   }
 
   async getAwsomeItems(
