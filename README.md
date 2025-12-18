@@ -51,7 +51,7 @@ This is an open-source project, and we welcome contributions! The easiest way to
 ### How to Submit a New Item
 
 1. **Fork the repository**
-2. **Navigate to** `public/awsome-items/`
+2. **Navigate to** `src/data/`
 3. **Edit** `awesome-items.json` to add your boilerplate/template
 4. **Submit a Pull Request** with a clear description
 

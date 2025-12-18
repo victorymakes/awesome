@@ -25,7 +25,7 @@ export default async function FAQPage() {
       id: 'how-to-submit',
       question: 'How do I submit a new item to AwesomeLists?',
       answer:
-        'We welcome community contributions! Here\'s how to submit a new item:\n\n1. Fork the repository on GitHub\n2. Navigate to the `public/awsome-items/` directory\n3. Edit the `awesome-items.json` file and add your item with the following format:\n\n```json\n{\n  "title": "Your Project Name",\n  "summary": "A concise description of your project (2-3 sentences)",\n  "url": "https://your-project-url.com",\n  "category": "SaaS Boilerplate",\n  "tags": ["Next.js", "TypeScript", "Stripe", "Authentication"],\n  "description": "Optional: A more detailed description",\n  "image": "Optional: Image URL for preview"\n}\n```\n\n4. Commit your changes and submit a Pull Request\n5. Our team will review and merge your submission\n\nMake sure your URL is working and the information is accurate.',
+        'We welcome community contributions! Here\'s how to submit a new item:\n\n1. Fork the repository on GitHub\n2. Navigate to the `src/data/` directory\n3. Edit the `awesome-items.json` file and add your item with the following format:\n\n```json\n{\n  "title": "Your Project Name",\n  "summary": "A concise description of your project (2-3 sentences)",\n  "url": "https://your-project-url.com",\n  "category": "SaaS Boilerplate",\n  "tags": ["Next.js", "TypeScript", "Stripe", "Authentication"],\n  "description": "Optional: A more detailed description",\n  "image": "Optional: Image URL for preview"\n}\n```\n\n4. Commit your changes and submit a Pull Request\n5. Our team will review and merge your submission\n\nMake sure your URL is working and the information is accurate.',
     },
     {
       id: 'submission-guidelines',
@@ -83,9 +83,9 @@ export default async function FAQPage() {
     },
     {
       id: 'file-structure',
-      question: 'What files are in the public/awsome-items directory?',
+      question: 'What files are in the src/data directory?',
       answer:
-        'The `public/awsome-items/` directory contains the following JSON files:\n\n• awesome-items.json - Contains all the SaaS boilerplates, templates, and tools\n• awsome-item-categories.json - Defines all available categories\n• awsome-item-tags.json - Defines all available tags\n\nWhen submitting a new item, you primarily edit `awesome-items.json`. Make sure to use categories and tags that already exist in their respective files. If you need a new category or tag, please mention it in your Pull Request.',
+        'The `src/data/` directory contains the following JSON files:\n\n• awesome-items.json - Contains all the SaaS boilerplates, templates, and tools\n• awsome-item-categories.json - Defines all available categories\n• awsome-item-tags.json - Defines all available tags\n\nWhen submitting a new item, you primarily edit `awesome-items.json`. Make sure to use categories and tags that already exist in their respective files. If you need a new category or tag, please mention it in your Pull Request.',
     },
     {
       id: 'duplicate-items',
