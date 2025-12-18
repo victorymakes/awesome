@@ -4,15 +4,30 @@ import { PageData } from '@/model/page-data';
 
 class AwsomeService {
   async getCategories(): Promise<string[]> {
-    return await (await fetch(`${env.APP_URL}/awsome-items/awsome-item-categories.json`)).json();
+    try {
+      return await (await fetch(`${env.APP_URL}/awsome-items/awsome-item-categories.json`)).json();
+    } catch (error) {
+      console.error('Fetch awesome item categories error.', error);
+      throw error;
+    }
   }
 
   async getTags(): Promise<string[]> {
-    return await (await fetch(`${env.APP_URL}/awsome-items/awsome-item-tags.json`)).json();
+    try {
+      return await (await fetch(`${env.APP_URL}/awsome-items/awsome-item-tags.json`)).json();
+    } catch (error) {
+      console.error('Fetch awesome item tags error.', error);
+      throw error;
+    }
   }
 
   async getAllAwsomeItems(): Promise<AwsomeItem[]> {
-    return await (await fetch(`${env.APP_URL}/awsome-items/awesome-items.json`)).json();
+    try {
+      return await (await fetch(`${env.APP_URL}/awsome-items/awesome-items.json`)).json();
+    } catch (error) {
+      console.error('Fetch awesome items error.', error);
+      throw error;
+    }
   }
 
   async getAwsomeItems(
