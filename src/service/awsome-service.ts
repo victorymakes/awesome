@@ -25,7 +25,12 @@ class AwsomeService {
     try {
       return await (await fetch(`${env.APP_URL}/awsome-items/awesome-items.json`)).json();
     } catch (error) {
-      console.error(`Fetch awesome items error. ${JSON.stringify(error)}`);
+      console.error(
+        `Fetch awesome items error. ${JSON.stringify({
+          message: (error as Error).message,
+          stack: (error as Error).stack,
+        })}`,
+      );
       throw error;
     }
   }
