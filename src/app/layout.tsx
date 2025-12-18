@@ -1,7 +1,7 @@
 import '@/app/globals.css';
 
 import { configuration } from '@/configuration/site';
-import { ThemeProvider } from '@/app/theme-provider';
+import { ThemeProvider } from '@/components/theme-provider';
 import { Navbar } from '@/components/navbar';
 import { ScrollToTop } from '@/components/scroll-to-top';
 import { Footer } from '@/components/footer';
