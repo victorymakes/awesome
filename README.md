@@ -97,7 +97,7 @@ Our collection includes resources for:
 - **Styling**: [Tailwind CSS](https://tailwindcss.com)
 - **UI Components**: [Shadcn/UI](https://ui.shadcn.com)
 - **Code Formatting**: [Prettier](https://prettier.io)
-- **Deployment**: [Cloudflare Pages](https://pages.cloudflare.com)
+- **Deployment**: [OpenNext](https://open-next.js.org) + [Cloudflare Pages](https://pages.cloudflare.com)
 
 ## 📚 Resources
 
@@ -116,7 +116,6 @@ Have questions or suggestions? Feel free to:
 
 - Open an issue on GitHub
 - Submit a pull request with improvements
-- Contact us via [awsomelists@gmail.com](mailto:awsomelists@gmail.com)
 
 ## 🔗 Related Projects
 
@@ -124,4 +123,4 @@ Have questions or suggestions? Feel free to:
 
 ---
 
-Made with ❤️ by the AwesomeLists community
+Made with ❤️ by Victory
