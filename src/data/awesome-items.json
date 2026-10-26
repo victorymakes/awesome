@@ -2168,6 +2168,34 @@
     ]
   },
   {
+    "title": "React Starter Kit",
+    "summary": "Open-source (MIT) full-stack SaaS template, maintained since 2014. A React 19 SPA with TanStack Router, a Hono + tRPC API, and an Astro marketing site run as Cloudflare Workers behind one domain. It includes Better Auth with organizations, passkeys, email OTP, and Google OAuth, Stripe subscriptions billed per user or per organization, Drizzle ORM on Neon PostgreSQL, and transactional emails built with React Email and sent through Resend.",
+    "url": "https://github.com/kriasoft/react-starter-kit",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "React.js",
+      "TypeScript",
+      "Vite",
+      "TanStack Router",
+      "Tailwind CSS",
+      "ShadCN",
+      "Astro",
+      "Hono",
+      "tRPC",
+      "Better Auth",
+      "Stripe",
+      "Drizzle ORM",
+      "Neon",
+      "PostgreSQL",
+      "Cloudflare Workers",
+      "React Email",
+      "Resend",
+      "Bun",
+      "Vitest",
+      "Terraform"
+    ]
+  },
+  {
     "title": "Flisk",
     "summary": "Generate and run your whole tech stack without the setup pain. One command takes you from an empty folder to a running stack — scaffolding, config, and services wired up for you.",
     "url": "https://flisk.sh",
