@@ -2194,5 +2194,16 @@
       "Vitest",
       "Terraform"
     ]
+  },
+  {
+    "title": "Flisk",
+    "summary": "Generate and run your whole tech stack without the setup pain. One command takes you from an empty folder to a running stack — scaffolding, config, and services wired up for you.",
+    "url": "https://flisk.sh",
+    "category": "Developer Tool",
+    "tags": [
+      "TypeScript",
+      "Node.js",
+      "Bun"
+    ]
   }
 ]
