@@ -2205,5 +2205,23 @@
       "Node.js",
       "Bun"
     ]
+  },
+  {
+    "title": "supastack",
+    "summary": "Production-ready SaaS starter kit: Next.js + TanStack web, Expo mobile, and Tauri desktop apps in one monorepo, with auth, billing, AI, and MCP pre-wired.",
+    "url": "https://supastack.dev",
+    "category": "SaaS Boilerplate",
+    "tags": [
+      "Next.js",
+      "TanStack Router",
+      "Expo",
+      "React Native",
+      "TypeScript",
+      "Stripe",
+      "Drizzle ORM",
+      "Supabase",
+      "Vercel AI SDK",
+      "Turborepo"
+    ]
   }
 ]
