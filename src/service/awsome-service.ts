@@ -1,6 +1,7 @@
 import { awesomeItems, categories, tags } from '@/data';
 import { AwsomeItem } from '@/model/awsome-item';
 import { PageData } from '@/model/page-data';
+import { queryCatalog } from '@/lib/catalog';
 
 class AwsomeService {
   async getCategories(): Promise<string[]> {
@@ -19,24 +20,9 @@ class AwsomeService {
     category?: string,
     tags?: string[],
     page?: number,
+    q?: string,
   ): Promise<PageData<AwsomeItem[]>> {
-    page = page || 1;
-    const pageSize = 12;
-    const items = (await this.getAllAwsomeItems()).filter((item) => {
-      return (
-        (category ? item.category === category : true) &&
-        (tags ? tags.every((tag) => item.tags.includes(tag)) : true)
-      );
-    });
-
-    const start = pageSize * (page - 1);
-    const end = Math.min(items.length, start + pageSize);
-    const total = Math.ceil(items.length / pageSize);
-    return {
-      page: page,
-      total: total,
-      data: items.slice(start, end),
-    };
+    return queryCatalog(await this.getAllAwsomeItems(), { category, tags, page, q });
   }
 }
 

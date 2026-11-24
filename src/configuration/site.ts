@@ -1,7 +1,7 @@
 export const configuration = {
   title: 'AwesomeLists',
   description:
-    'AwesomeList collects all the boilerplate, template, library, tool that can speed up your project building to help you make your ideas come true fastly.',
+    'Discover curated SaaS boilerplates, templates, libraries, and developer tools for your next project.',
   language: 'en',
   author: 'Victory',
   theme: 'system',

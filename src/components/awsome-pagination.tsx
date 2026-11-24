@@ -1,50 +1,55 @@
-import {
-  Pagination,
-  PaginationContent,
-  PaginationItem,
-  PaginationNext,
-  PaginationPrevious,
-} from '@/components/ui/pagination';
-import * as React from 'react';
-import { headers } from 'next/headers';
+import Link from 'next/link';
+import { ArrowLeft, ArrowRight } from 'lucide-react';
+import { Button } from '@/components/ui/button';
 
-interface PagePrps extends React.ComponentProps<'nav'> {
+interface PaginationProps {
   current: number;
   total: number;
+  queryString: string;
 }
 
-const getUrl = async (currentPage: number, newPage: number, total: number) => {
-  if (newPage < 1 || newPage > total) {
-    return undefined;
+export function AwsomePagination({ current, total, queryString }: PaginationProps) {
+  if (total <= 1) return null;
+  function href(page: number) {
+    const params = new URLSearchParams(queryString);
+    params.set('page', String(page));
+    return `/?${params.toString()}#results`;
   }
-
-  const headerList = await headers();
-  let url = headerList.get('x-current-url') || '/';
-  if (url.includes('page=')) {
-    url = url.replaceAll(`page=${currentPage}`, `page=${newPage}`);
-  } else {
-    url = url.includes('?') ? `${url}&page=${newPage}` : `${url}?page=${newPage}`;
-  }
-  return url;
-};
-
-export const AwsomePagination = async ({ current, total, className }: PagePrps) => {
-  const previous = await getUrl(current, current - 1, total);
-  const next = await getUrl(current, current + 1, total);
   return (
-    <Pagination className={className}>
-      <PaginationContent className={'flex w-full justify-center'}>
-        {previous ? (
-          <PaginationItem>
-            <PaginationPrevious href={previous} />
-          </PaginationItem>
-        ) : null}
-        {next ? (
-          <PaginationItem>
-            <PaginationNext href={next} />
-          </PaginationItem>
-        ) : null}
-      </PaginationContent>
-    </Pagination>
+    <nav
+      aria-label="Resource pagination"
+      className="mt-8 flex items-center justify-between gap-3 font-mono text-sm"
+    >
+      {current > 1 ? (
+        <Button asChild variant="outline">
+          <Link href={href(current - 1)} rel="prev">
+            <ArrowLeft aria-hidden="true" />
+            Previous
+          </Link>
+        </Button>
+      ) : (
+        <Button variant="outline" disabled>
+          <ArrowLeft aria-hidden="true" />
+          Previous
+        </Button>
+      )}
+      <span className="text-muted-foreground text-center">
+        Page <span className="text-foreground tabular-nums">{current}</span> of{' '}
+        <span className="tabular-nums">{total}</span>
+      </span>
+      {current < total ? (
+        <Button asChild variant="outline">
+          <Link href={href(current + 1)} rel="next">
+            Next
+            <ArrowRight aria-hidden="true" />
+          </Link>
+        </Button>
+      ) : (
+        <Button variant="outline" disabled>
+          Next
+          <ArrowRight aria-hidden="true" />
+        </Button>
+      )}
+    </nav>
   );
-};
+}

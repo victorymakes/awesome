@@ -1,19 +1,28 @@
 [
   {
     "title": "LaunchSaaS",
-    "summary": "The complete Next.js boilerplate with all you need to build your SaaS, AI tool, or any other web app and make your first $ online fast.",
+    "summary": "Launch-ready SaaS, directory, and AI app templates built with Next.js and TanStack Start.",
     "url": "https://launchsaas.org",
     "category": "SaaS Boilerplate",
     "tags": [
       "Next.js",
+      "TanStack Start",
+      "Cloudflare Workers",
+      "Cloudflare D1",
+      "Cloudflare R2",
+      "TypeScript",
       "Better Auth",
+      "Drizzle ORM",
+      "Tailwind CSS",
       "ShadCN",
-      "TailwindCSS",
-      "Better Auth",
       "Stripe",
+      "Creem",
       "Resend",
-      "Google Analytics"
-    ]
+      "Fumadocs",
+      "Supabase",
+      "Vercel"
+    ],
+    "description": "LaunchSaaS is a growing library of complete SaaS products, including a SaaS foundation, an AI tools directory, and an AI image app. Templates include authentication, billing, admin, email, blog, documentation, and internationalization, with code structured for customization using AI coding agents. Foundations vary by template: Next.js or TanStack Start, with Cloudflare Workers, D1, and R2 for the TanStack and Cloudflare editions."
   },
   {
     "title": "saas-boilerplate.dev",
@@ -2200,11 +2209,7 @@
     "summary": "Generate and run your whole tech stack without the setup pain. One command takes you from an empty folder to a running stack — scaffolding, config, and services wired up for you.",
     "url": "https://flisk.sh",
     "category": "Developer Tool",
-    "tags": [
-      "TypeScript",
-      "Node.js",
-      "Bun"
-    ]
+    "tags": ["TypeScript", "Node.js", "Bun"]
   },
   {
     "title": "supastack",
