@@ -43,3 +43,7 @@ next-env.d.ts
 # cloudflare
 .wrangler
 .open-next
+
+# Local design build artifacts and downloaded reference boards
+/.impeccable/build/
+/.impeccable/reference/

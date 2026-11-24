@@ -1,0 +1,548 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-24T09:05:07.149657+00:00",
+  "title": "Design System: AwesomeLists",
+  "extensions": {
+    "colorMeta": {
+      "background": {
+        "role": "neutral",
+        "displayName": "Background",
+        "canonical": "#f8f8f8",
+        "tonalRamp": [
+          "oklch(0.15 0.0 0)",
+          "oklch(0.26 0.0 0)",
+          "oklch(0.37 0.0 0)",
+          "oklch(0.49 0 0)",
+          "oklch(0.61 0 0)",
+          "oklch(0.73 0.0 0)",
+          "oklch(0.85 0.0 0)",
+          "oklch(0.95 0.0 0)"
+        ]
+      },
+      "foreground": {
+        "role": "neutral",
+        "displayName": "Foreground",
+        "canonical": "#090909",
+        "tonalRamp": [
+          "oklch(0.15 0.0 0)",
+          "oklch(0.26 0.0 0)",
+          "oklch(0.37 0.0 0)",
+          "oklch(0.49 0 0)",
+          "oklch(0.61 0 0)",
+          "oklch(0.73 0.0 0)",
+          "oklch(0.85 0.0 0)",
+          "oklch(0.95 0.0 0)"
+        ]
+      },
+      "popover": {
+        "role": "neutral",
+        "displayName": "Popover",
+        "canonical": "oklch(1 0 0)",
+        "tonalRamp": [
+          "oklch(0.15 0.0 0)",
+          "oklch(0.26 0.0 0)",
+          "oklch(0.37 0.0 0)",
+          "oklch(0.49 0 0)",
+          "oklch(0.61 0 0)",
+          "oklch(0.73 0.0 0)",
+          "oklch(0.85 0.0 0)",
+          "oklch(0.95 0.0 0)"
+        ]
+      },
+      "primary": {
+        "role": "primary",
+        "displayName": "Primary",
+        "canonical": "#0838d3",
+        "tonalRamp": [
+          "oklch(0.15 0.0135 265)",
+          "oklch(0.26 0.0292 265)",
+          "oklch(0.37 0.0405 265)",
+          "oklch(0.49 0.045 265)",
+          "oklch(0.61 0.045 265)",
+          "oklch(0.73 0.0382 265)",
+          "oklch(0.85 0.027 265)",
+          "oklch(0.95 0.009 265)"
+        ]
+      },
+      "primary-foreground": {
+        "role": "primary",
+        "displayName": "Primary Foreground",
+        "canonical": "oklch(1 0 0)",
+        "tonalRamp": [
+          "oklch(0.15 0.0012 265)",
+          "oklch(0.26 0.0026 265)",
+          "oklch(0.37 0.0036 265)",
+          "oklch(0.49 0.004 265)",
+          "oklch(0.61 0.004 265)",
+          "oklch(0.73 0.0034 265)",
+          "oklch(0.85 0.0024 265)",
+          "oklch(0.95 0.0008 265)"
+        ]
+      },
+      "secondary": {
+        "role": "neutral",
+        "displayName": "Secondary",
+        "canonical": "oklch(0.928 0.004 265)",
+        "tonalRamp": [
+          "oklch(0.15 0.0012 265)",
+          "oklch(0.26 0.0026 265)",
+          "oklch(0.37 0.0036 265)",
+          "oklch(0.49 0.004 265)",
+          "oklch(0.61 0.004 265)",
+          "oklch(0.73 0.0034 265)",
+          "oklch(0.85 0.0024 265)",
+          "oklch(0.95 0.0008 265)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Muted",
+        "canonical": "oklch(0.945 0.002 265)",
+        "tonalRamp": [
+          "oklch(0.15 0.0012 265)",
+          "oklch(0.26 0.0026 265)",
+          "oklch(0.37 0.0036 265)",
+          "oklch(0.49 0.004 265)",
+          "oklch(0.61 0.004 265)",
+          "oklch(0.73 0.0034 265)",
+          "oklch(0.85 0.0024 265)",
+          "oklch(0.95 0.0008 265)"
+        ]
+      },
+      "muted-foreground": {
+        "role": "neutral",
+        "displayName": "Muted Foreground",
+        "canonical": "oklch(0.435 0.008 265)",
+        "tonalRamp": [
+          "oklch(0.15 0.0012 265)",
+          "oklch(0.26 0.0026 265)",
+          "oklch(0.37 0.0036 265)",
+          "oklch(0.49 0.004 265)",
+          "oklch(0.61 0.004 265)",
+          "oklch(0.73 0.0034 265)",
+          "oklch(0.85 0.0024 265)",
+          "oklch(0.95 0.0008 265)"
+        ]
+      },
+      "accent": {
+        "role": "neutral",
+        "displayName": "Accent",
+        "canonical": "oklch(0.928 0.014 265)",
+        "tonalRamp": [
+          "oklch(0.15 0.0012 265)",
+          "oklch(0.26 0.0026 265)",
+          "oklch(0.37 0.0036 265)",
+          "oklch(0.49 0.004 265)",
+          "oklch(0.61 0.004 265)",
+          "oklch(0.73 0.0034 265)",
+          "oklch(0.85 0.0024 265)",
+          "oklch(0.95 0.0008 265)"
+        ]
+      },
+      "border": {
+        "role": "neutral",
+        "displayName": "Border",
+        "canonical": "#b9b9bc",
+        "tonalRamp": [
+          "oklch(0.15 0.0 0)",
+          "oklch(0.26 0.0 0)",
+          "oklch(0.37 0.0 0)",
+          "oklch(0.49 0 0)",
+          "oklch(0.61 0 0)",
+          "oklch(0.73 0.0 0)",
+          "oklch(0.85 0.0 0)",
+          "oklch(0.95 0.0 0)"
+        ]
+      },
+      "input": {
+        "role": "neutral",
+        "displayName": "Input",
+        "canonical": "#545559",
+        "tonalRamp": [
+          "oklch(0.15 0.0012 265)",
+          "oklch(0.26 0.0026 265)",
+          "oklch(0.37 0.0036 265)",
+          "oklch(0.49 0.004 265)",
+          "oklch(0.61 0.004 265)",
+          "oklch(0.73 0.0034 265)",
+          "oklch(0.85 0.0024 265)",
+          "oklch(0.95 0.0008 265)"
+        ]
+      },
+      "dark-background": {
+        "role": "neutral",
+        "displayName": "Dark Background",
+        "canonical": "oklch(0.135 0 0)",
+        "tonalRamp": [
+          "oklch(0.15 0.0 0)",
+          "oklch(0.26 0.0 0)",
+          "oklch(0.37 0.0 0)",
+          "oklch(0.49 0 0)",
+          "oklch(0.61 0 0)",
+          "oklch(0.73 0.0 0)",
+          "oklch(0.85 0.0 0)",
+          "oklch(0.95 0.0 0)"
+        ]
+      },
+      "dark-foreground": {
+        "role": "neutral",
+        "displayName": "Dark Foreground",
+        "canonical": "oklch(0.945 0.003 100)",
+        "tonalRamp": [
+          "oklch(0.15 0.0 0)",
+          "oklch(0.26 0.0 0)",
+          "oklch(0.37 0.0 0)",
+          "oklch(0.49 0 0)",
+          "oklch(0.61 0 0)",
+          "oklch(0.73 0.0 0)",
+          "oklch(0.85 0.0 0)",
+          "oklch(0.95 0.0 0)"
+        ]
+      },
+      "dark-popover": {
+        "role": "neutral",
+        "displayName": "Dark Popover",
+        "canonical": "oklch(0.2 0 0)",
+        "tonalRamp": [
+          "oklch(0.15 0.0 0)",
+          "oklch(0.26 0.0 0)",
+          "oklch(0.37 0.0 0)",
+          "oklch(0.49 0 0)",
+          "oklch(0.61 0 0)",
+          "oklch(0.73 0.0 0)",
+          "oklch(0.85 0.0 0)",
+          "oklch(0.95 0.0 0)"
+        ]
+      },
+      "dark-primary": {
+        "role": "primary",
+        "displayName": "Dark Primary",
+        "canonical": "oklch(0.88 0.025 265)",
+        "tonalRamp": [
+          "oklch(0.15 0.0135 265)",
+          "oklch(0.26 0.0292 265)",
+          "oklch(0.37 0.0405 265)",
+          "oklch(0.49 0.045 265)",
+          "oklch(0.61 0.045 265)",
+          "oklch(0.73 0.0382 265)",
+          "oklch(0.85 0.027 265)",
+          "oklch(0.95 0.009 265)"
+        ]
+      },
+      "dark-primary-foreground": {
+        "role": "primary",
+        "displayName": "Dark Primary Foreground",
+        "canonical": "oklch(0.135 0 0)",
+        "tonalRamp": [
+          "oklch(0.15 0.0012 265)",
+          "oklch(0.26 0.0026 265)",
+          "oklch(0.37 0.0036 265)",
+          "oklch(0.49 0.004 265)",
+          "oklch(0.61 0.004 265)",
+          "oklch(0.73 0.0034 265)",
+          "oklch(0.85 0.0024 265)",
+          "oklch(0.95 0.0008 265)"
+        ]
+      },
+      "dark-secondary": {
+        "role": "neutral",
+        "displayName": "Dark Secondary",
+        "canonical": "oklch(0.255 0 0)",
+        "tonalRamp": [
+          "oklch(0.15 0.0012 265)",
+          "oklch(0.26 0.0026 265)",
+          "oklch(0.37 0.0036 265)",
+          "oklch(0.49 0.004 265)",
+          "oklch(0.61 0.004 265)",
+          "oklch(0.73 0.0034 265)",
+          "oklch(0.85 0.0024 265)",
+          "oklch(0.95 0.0008 265)"
+        ]
+      },
+      "dark-muted": {
+        "role": "neutral",
+        "displayName": "Dark Muted",
+        "canonical": "oklch(0.21 0 0)",
+        "tonalRamp": [
+          "oklch(0.15 0.0012 265)",
+          "oklch(0.26 0.0026 265)",
+          "oklch(0.37 0.0036 265)",
+          "oklch(0.49 0.004 265)",
+          "oklch(0.61 0.004 265)",
+          "oklch(0.73 0.0034 265)",
+          "oklch(0.85 0.0024 265)",
+          "oklch(0.95 0.0008 265)"
+        ]
+      },
+      "dark-muted-foreground": {
+        "role": "neutral",
+        "displayName": "Dark Muted Foreground",
+        "canonical": "oklch(0.73 0.005 265)",
+        "tonalRamp": [
+          "oklch(0.15 0.0012 265)",
+          "oklch(0.26 0.0026 265)",
+          "oklch(0.37 0.0036 265)",
+          "oklch(0.49 0.004 265)",
+          "oklch(0.61 0.004 265)",
+          "oklch(0.73 0.0034 265)",
+          "oklch(0.85 0.0024 265)",
+          "oklch(0.95 0.0008 265)"
+        ]
+      },
+      "dark-accent": {
+        "role": "neutral",
+        "displayName": "Dark Accent",
+        "canonical": "oklch(0.27 0.005 265)",
+        "tonalRamp": [
+          "oklch(0.15 0.0012 265)",
+          "oklch(0.26 0.0026 265)",
+          "oklch(0.37 0.0036 265)",
+          "oklch(0.49 0.004 265)",
+          "oklch(0.61 0.004 265)",
+          "oklch(0.73 0.0034 265)",
+          "oklch(0.85 0.0024 265)",
+          "oklch(0.95 0.0008 265)"
+        ]
+      },
+      "dark-border": {
+        "role": "neutral",
+        "displayName": "Dark Border",
+        "canonical": "oklch(0.37 0 0)",
+        "tonalRamp": [
+          "oklch(0.15 0.0 0)",
+          "oklch(0.26 0.0 0)",
+          "oklch(0.37 0.0 0)",
+          "oklch(0.49 0 0)",
+          "oklch(0.61 0 0)",
+          "oklch(0.73 0.0 0)",
+          "oklch(0.85 0.0 0)",
+          "oklch(0.95 0.0 0)"
+        ]
+      },
+      "dark-input": {
+        "role": "neutral",
+        "displayName": "Dark Input",
+        "canonical": "oklch(0.65 0.003 265)",
+        "tonalRamp": [
+          "oklch(0.15 0.0012 265)",
+          "oklch(0.26 0.0026 265)",
+          "oklch(0.37 0.0036 265)",
+          "oklch(0.49 0.004 265)",
+          "oklch(0.61 0.004 265)",
+          "oklch(0.73 0.0034 265)",
+          "oklch(0.85 0.0024 265)",
+          "oklch(0.95 0.0008 265)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Directory headline; first line overrides family, scale, and tracking."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "FAQ page title."
+      },
+      "resource-title": {
+        "displayName": "Resource Title",
+        "purpose": "Desktop resource titles."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Proportional body and FAQ answer baseline."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Compact mono labels; larger roles override size."
+      },
+      "button": {
+        "displayName": "Button",
+        "purpose": "Shared shadcn button baseline."
+      }
+    },
+    "shadows": [
+      {
+        "name": "overlay-medium",
+        "value": "0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1)",
+        "purpose": "Select, Popover, and technology details."
+      },
+      {
+        "name": "sheet-large",
+        "value": "0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1)",
+        "purpose": "Mobile navigation Sheet."
+      }
+    ],
+    "motion": [
+      {
+        "name": "state-duration",
+        "value": "150ms",
+        "purpose": "Default Tailwind color and transform transitions."
+      },
+      {
+        "name": "state-ease",
+        "value": "cubic-bezier(0.4, 0, 0.2, 1)",
+        "purpose": "Default Tailwind transition easing."
+      },
+      {
+        "name": "accordion-chevron",
+        "value": "200ms",
+        "purpose": "FAQ indicator rotation."
+      },
+      {
+        "name": "sheet-enter",
+        "value": "500ms",
+        "purpose": "Mobile navigation entry."
+      },
+      {
+        "name": "sheet-exit",
+        "value": "300ms",
+        "purpose": "Mobile navigation exit."
+      },
+      {
+        "name": "reduced-motion-duration",
+        "value": "0.01ms",
+        "purpose": "Global animation and transition override under prefers-reduced-motion: reduce."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "sm",
+        "value": "640px"
+      },
+      {
+        "name": "md",
+        "value": "768px"
+      },
+      {
+        "name": "lg",
+        "value": "1024px"
+      },
+      {
+        "name": "xl",
+        "value": "1280px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Shared shadcn primary variant.",
+      "html": "<button class=\"ds-button-primary\">Submit a resource</button>",
+      "css": ".ds-button-primary{display:inline-flex;align-items:center;justify-content:center;gap:8px;border-radius:var(--radius-md,6px);height:40px;padding:8px 16px;font:500 14px/20px var(--font-sans,\"Mona Sans\",sans-serif);text-decoration:none;cursor:pointer;transition:color 150ms,background-color 150ms;background:var(--primary,#0838d3);color:var(--primary-foreground,#fff);border:0;}.ds-button-primary:hover{background:color-mix(in oklab,var(--primary,#0838d3) 90%,transparent);}.ds-button-primary:focus-visible{outline:2px solid var(--ring,#0838d3);outline-offset:2px;}.ds-button-primary:disabled{opacity:.5;pointer-events:none;} @media(prefers-reduced-motion:reduce){.ds-button-primary{transition-duration:.01ms;}}"
+    },
+    {
+      "name": "Outline Button",
+      "kind": "button",
+      "refersTo": "button-outline",
+      "description": "Shared shadcn outline variant.",
+      "html": "<button class=\"ds-button-outline\">Previous</button>",
+      "css": ".ds-button-outline{display:inline-flex;align-items:center;justify-content:center;gap:8px;border-radius:var(--radius-md,6px);height:40px;padding:8px 16px;font:500 14px/20px var(--font-sans,\"Mona Sans\",sans-serif);text-decoration:none;cursor:pointer;transition:color 150ms,background-color 150ms;background:var(--background,#f8f8f8);color:var(--foreground,#090909);border:1px solid var(--input,#545559);}.ds-button-outline:hover{background:var(--accent,oklch(0.928 0.014 265));}.ds-button-outline:focus-visible{outline:2px solid var(--ring,#0838d3);outline-offset:2px;}.ds-button-outline:disabled{opacity:.5;pointer-events:none;} @media(prefers-reduced-motion:reduce){.ds-button-outline{transition-duration:.01ms;}}"
+    },
+    {
+      "name": "Secondary Button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Shared shadcn secondary variant.",
+      "html": "<button class=\"ds-button-secondary\">Next.js</button>",
+      "css": ".ds-button-secondary{display:inline-flex;align-items:center;justify-content:center;gap:8px;border-radius:var(--radius-md,6px);height:40px;padding:8px 16px;font:500 14px/20px var(--font-sans,\"Mona Sans\",sans-serif);text-decoration:none;cursor:pointer;transition:color 150ms,background-color 150ms;height:32px;padding:0 12px;background:var(--secondary,oklch(0.928 0.004 265));color:var(--foreground,#090909);border:0;}.ds-button-secondary:hover{background:color-mix(in oklab,var(--secondary,oklch(0.928 0.004 265)) 80%,transparent);}.ds-button-secondary:focus-visible{outline:2px solid var(--ring,#0838d3);outline-offset:2px;}.ds-button-secondary:disabled{opacity:.5;pointer-events:none;} @media(prefers-reduced-motion:reduce){.ds-button-secondary{transition-duration:.01ms;}}"
+    },
+    {
+      "name": "Ghost Button",
+      "kind": "button",
+      "refersTo": "button-ghost",
+      "description": "Shared shadcn ghost variant.",
+      "html": "<button class=\"ds-button-ghost\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"><path d=\"M5 12h14m-6-6 6 6-6 6\"/></svg></button>",
+      "css": ".ds-button-ghost{display:inline-flex;align-items:center;justify-content:center;gap:8px;border-radius:var(--radius-md,6px);height:40px;padding:8px 16px;font:500 14px/20px var(--font-sans,\"Mona Sans\",sans-serif);text-decoration:none;cursor:pointer;transition:color 150ms,background-color 150ms;width:40px;padding:0;background:transparent;color:var(--foreground,#090909);border:0;}.ds-button-ghost:hover{background:var(--accent,oklch(0.928 0.014 265));}.ds-button-ghost:focus-visible{outline:2px solid var(--ring,#0838d3);outline-offset:2px;}.ds-button-ghost:disabled{opacity:.5;pointer-events:none;} @media(prefers-reduced-motion:reduce){.ds-button-ghost{transition-duration:.01ms;}}"
+    },
+    {
+      "name": "Link Button",
+      "kind": "button",
+      "refersTo": "button-link",
+      "description": "Shared shadcn link variant.",
+      "html": "<button class=\"ds-button-link\">Clear all</button>",
+      "css": ".ds-button-link{display:inline-flex;align-items:center;justify-content:center;gap:8px;border-radius:var(--radius-md,6px);height:40px;padding:8px 16px;font:500 14px/20px var(--font-sans,\"Mona Sans\",sans-serif);text-decoration:none;cursor:pointer;transition:color 150ms,background-color 150ms;background:transparent;color:var(--primary,#0838d3);border:0;text-underline-offset:4px;}.ds-button-link:hover{text-decoration:underline;}.ds-button-link:focus-visible{outline:2px solid var(--ring,#0838d3);outline-offset:2px;}.ds-button-link:disabled{opacity:.5;pointer-events:none;} @media(prefers-reduced-motion:reduce){.ds-button-link{transition-duration:.01ms;}}"
+    },
+    {
+      "name": "Search Field",
+      "kind": "input",
+      "refersTo": "input-search",
+      "description": "Mono keyword field with inline submit affordance.",
+      "html": "<div class=\"ds-search\"><svg class=\"ds-search-icon\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"><circle cx=\"11\" cy=\"11\" r=\"8\"/><path d=\"m21 21-4.35-4.35\"/></svg><input class=\"ds-search-input\" type=\"search\" aria-label=\"Search resources\" placeholder=\"Search resources\"/><button class=\"ds-search-submit\" aria-label=\"Search resources\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"><path d=\"M5 12h14m-6-6 6 6-6 6\"/></svg></button></div>",
+      "css": ".ds-search{position:relative;color:var(--foreground,#090909);}.ds-search-input{width:100%;height:56px;border:1px solid var(--input,#545559);border-radius:var(--radius-md,6px);background:var(--background,#f8f8f8);color:inherit;padding:0 56px 0 80px;font:16px var(--font-mono,\"Roboto Mono\",monospace);}.ds-search-input::placeholder{color:var(--muted-foreground,oklch(0.435 0.008 265));}.ds-search-icon{position:absolute;left:30px;top:18px;pointer-events:none;}.ds-search-submit{position:absolute;right:8px;top:8px;width:40px;height:40px;display:grid;place-items:center;border:0;border-radius:6px;background:transparent;color:var(--primary,#0838d3);cursor:pointer;}.ds-search-submit:hover{background:var(--accent,oklch(0.928 0.014 265));}.ds-search-input:focus-visible,.ds-search-submit:focus-visible{outline:2px solid var(--ring,#0838d3);outline-offset:4px;}@media(min-width:640px){.ds-search-input{height:60px;font-size:18px;}.ds-search-icon{top:20px;}.ds-search-submit{top:10px;}}"
+    },
+    {
+      "name": "Active Filter Chip",
+      "kind": "chip",
+      "refersTo": "filter-chip",
+      "description": "Muted indicator for the current keyword or category.",
+      "html": "<span class=\"ds-filter-chip\">Search: starter</span>",
+      "css": ".ds-filter-chip{display:inline-block;border-radius:var(--radius-sm,4px);padding:8px 12px;background:var(--muted,oklch(0.945 0.002 265));color:var(--foreground,#090909);font:12px/16px var(--font-mono,\"Roboto Mono\",monospace);}"
+    },
+    {
+      "name": "Navigation",
+      "kind": "nav",
+      "description": "Mono links with a semantic active-page underline.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Main navigation\"><a class=\"ds-nav-link\" href=\"#directory\" aria-current=\"page\">Directory</a><a class=\"ds-nav-link\" href=\"#faq\">FAQ</a></nav>",
+      "css": ".ds-nav{display:flex;gap:32px;font:16px/24px var(--font-mono,\"Roboto Mono\",monospace);}.ds-nav-link{position:relative;padding:12px 0;color:var(--foreground,#090909);text-decoration:none;transition:color 150ms;}.ds-nav-link[aria-current=page]{font-weight:600;}.ds-nav-link[aria-current=page]::after{content:\"\";position:absolute;left:0;right:0;bottom:-4px;height:2px;background:var(--primary,#0838d3);}.ds-nav-link:hover{color:var(--primary,#0838d3);}.ds-nav-link:focus-visible{outline:2px solid var(--ring,#0838d3);outline-offset:4px;}@media(prefers-reduced-motion:reduce){.ds-nav-link{transition-duration:.01ms;}}"
+    },
+    {
+      "name": "Resource Row",
+      "kind": "card",
+      "refersTo": "resource-row",
+      "description": "A flat ruled row with a shared hover response. On the unfiltered first page only, LaunchSaaS gains an inline Featured badge, primary tint, and filled outbound action. Both themes share a complete 1px border, primary title, and filled Featured badge. Only surface and border color opacity vary by theme.",
+      "html": "<article class=\"ds-row\"><h2 class=\"ds-row-title\"><a class=\"ds-row-link\" href=\"#resource\">LaunchSaaS</a></h2><p class=\"ds-row-summary\">Launch-ready SaaS, directory, and AI app templates built with Next.js and TanStack Start.</p><span class=\"ds-row-tags\">Next.js, Better Auth, Stripe</span><a class=\"ds-row-visit\" href=\"#resource\">Visit website <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"><path d=\"M5 12h14m-6-6 6 6-6 6\"/></svg></a></article>",
+      "css": ".ds-row{display:grid;gap:16px;padding:24px 0;border-bottom:1px solid var(--border,#b9b9bc);color:var(--foreground,#090909);transition:background-color 150ms;}.ds-row:hover{background:color-mix(in oklab,var(--muted,oklch(0.945 0.002 265)) 35%,transparent);}.ds-row-title{margin:0;font:700 24px/1.25 var(--font-sans,\"Mona Sans\",sans-serif);letter-spacing:-.025em;overflow-wrap:anywhere;}.ds-row-link{color:inherit;text-decoration:none;}.ds-row:hover .ds-row-link,.ds-row-link:focus-visible{color:var(--primary,#0838d3);}.ds-row-summary{margin:0;font:14px/1.625 var(--font-sans,\"Mona Sans\",sans-serif);}.ds-row-tags{font:12px/1.625 var(--font-mono,\"Roboto Mono\",monospace);}.ds-row-visit{display:inline-flex;align-items:center;gap:8px;min-height:40px;color:var(--primary,#0838d3);font:600 14px/20px var(--font-mono,\"Roboto Mono\",monospace);text-decoration:none;}.ds-row-visit:hover{text-decoration:underline;}.ds-row-visit svg{transition:transform 150ms;}.ds-row:hover .ds-row-visit svg{transform:translateX(4px);}.ds-row a:focus-visible{outline:2px solid var(--ring,#0838d3);outline-offset:4px;}@media(min-width:1024px){.ds-row{grid-template-columns:minmax(0,1.095fr) minmax(0,1.336fr) minmax(0,1fr) auto;align-items:center;gap:28px;padding:14px 0;min-height:84px;}.ds-row-title{font-size:clamp(1.4rem,2.25vw,2.2rem);}.ds-row-summary,.ds-row-tags{font:17px/1.625 var(--font-mono,\"Roboto Mono\",monospace);}.ds-row-tags{border-left:1px solid var(--border,#b9b9bc);padding-left:28px;}.ds-row-visit{font-size:18px;}}@media(prefers-reduced-motion:reduce){.ds-row,.ds-row-visit svg{transition-duration:.01ms;}.ds-row:hover .ds-row-visit svg{transform:none;}}"
+    },
+    {
+      "name": "FAQ Accordion Item",
+      "kind": "custom",
+      "refersTo": "faq-item",
+      "description": "A framework-free visual specimen of the first disclosure in a FAQ group.",
+      "html": "<details class=\"ds-faq\" open><summary class=\"ds-faq-question\">How do I contribute?<svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"><path d=\"m6 9 6 6 6-6\"/></svg></summary><p class=\"ds-faq-answer\">Contributions happen through GitHub. Add an accurate description and a working URL.</p></details>",
+      "css": ".ds-faq{border-bottom:1px solid var(--border,#b9b9bc);color:var(--foreground,#090909);font-family:var(--font-sans,\"Mona Sans\",sans-serif);}.ds-faq-question{display:flex;justify-content:space-between;gap:24px;padding:20px 0;list-style:none;cursor:pointer;font-size:18px;font-weight:600;line-height:1.375;letter-spacing:-.025em;}.ds-faq:first-child .ds-faq-question{padding-top:0;}.ds-faq-question::-webkit-details-marker{display:none;}.ds-faq-question:hover{color:var(--primary,#0838d3);}.ds-faq-question:focus-visible{outline:2px solid var(--ring,#0838d3);outline-offset:4px;}.ds-faq-question svg{flex-shrink:0;transition:transform 200ms;}.ds-faq[open] .ds-faq-question svg{transform:rotate(180deg);}.ds-faq-answer{max-width:75ch;margin:0;padding-bottom:28px;color:var(--muted-foreground,oklch(0.435 0.008 265));font-size:16px;line-height:1.625;}@media(min-width:640px){.ds-faq-question{font-size:20px;}.ds-faq-answer{font-size:18px;}}@media(prefers-reduced-motion:reduce){.ds-faq-question svg{transition-duration:.01ms;}}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Type & Space / Quiet Monument",
+    "overview": "Type & Space gives light mode a pale ground, dense black display type, and cobalt actions. Quiet Monument carries the same structure into matte dark surfaces, soft white text, and a pale action color. Scale and whitespace establish hierarchy; monospace text makes navigation, controls, and resource metadata feel precise.\n\nThe directory is a ruled index rather than a gallery. Resource titles carry the strongest weight below the hero, with summaries, technology labels, and outbound actions arranged for scanning. FAQ content uses the same type contrast and rules, with longer answers given a readable measure.",
+    "keyCharacteristics": [
+      "Oversized proportional headlines paired with restrained monospace utilities.",
+      "One responsive information structure and identical hero composition across light and dark themes.",
+      "Flat page surfaces, visible rules, and minimally rounded controls.",
+      "Brief state feedback with reduced-motion support."
+    ],
+    "rules": [
+      {
+        "name": "The Semantic Theme Rule",
+        "body": "Use semantic background, foreground, primary, muted, border, input, and ring roles in product UI; let the active theme supply their values.",
+        "section": "colors"
+      },
+      {
+        "name": "The Type Contrast Rule",
+        "body": "Use proportional faces for display and content hierarchy, and the mono face for navigation, filtering, and compact metadata.",
+        "section": "typography"
+      },
+      {
+        "name": "The Flat Index Rule",
+        "body": "Keep directory rows flat and separated by rules; reserve elevation for overlays and floating detail surfaces.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do reuse shadcn Button, Select, Popover, Command, Sheet, and Accordion behavior and apply semantic theme tokens.",
+      "Do keep the same content order and controls in both themes, including the mobile theme toggle.",
+      "Do preserve visible keyboard focus, readable wrapping, and reduced-motion behavior.",
+      "Do use inline SVG icons for arrows, toggles, and search affordances.",
+      "Do highlight LaunchSaaS only on the unfiltered first page; search and filter results use ordinary resource rows."
+    ],
+    "donts": [
+      "Don't hardcode a light-only color into a shared control.",
+      "Don't replace the directory's ruled rows with elevated marketing cards.",
+      "Don't substitute system fonts for the locally hosted display and monospace faces.",
+      "Don't use the decorative wave as content or make it intercept pointer input."
+    ]
+  }
+}

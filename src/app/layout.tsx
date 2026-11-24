@@ -60,16 +60,22 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           content={configuration.analytics.microsoft.content}
         />
       </head>
-      <body className="bg-background text-foreground pl-[calc(100vw-100%)] antialiased">
+      <body className="bg-background text-foreground font-sans antialiased">
         <ThemeProvider>
-          <main className="mx-auto flex min-h-screen flex-col">
+          <a
+            href="#main"
+            className="bg-primary text-primary-foreground sr-only z-50 rounded-md px-5 py-3 font-mono focus:not-sr-only focus:fixed focus:top-4 focus:left-5"
+          >
+            Skip to content
+          </a>
+          <div className="mx-auto flex min-h-screen flex-col">
             <Navbar />
-            <div id={'main'} className={'container mx-auto max-w-7xl flex-1 px-4 py-8'}>
+            <main id="main" className="mx-5 flex-1 sm:mx-8 lg:mx-11">
               {children}
-            </div>
+            </main>
             <Footer />
             <ScrollToTop />
-          </main>
+          </div>
         </ThemeProvider>
       </body>
     </html>

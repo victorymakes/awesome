@@ -1,40 +1,35 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useEffect, useState } from 'react';
+import { ArrowUp } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import { ArrowUpToLine } from 'lucide-react';
 
-export const ScrollToTop = () => {
-  const [showTopBtn, setShowTopBtn] = useState(false);
-
+export function ScrollToTop() {
+  const [visible, setVisible] = useState(false);
   useEffect(() => {
-    window.addEventListener('scroll', () => {
-      if (window.scrollY > 400) {
-        setShowTopBtn(true);
-      } else {
-        setShowTopBtn(false);
-      }
-    });
+    const update = () => setVisible(window.scrollY > 600);
+    update();
+    window.addEventListener('scroll', update, { passive: true });
+    return () => window.removeEventListener('scroll', update);
   }, []);
-
-  const goToTop = () => {
-    window.scroll({
-      top: 0,
-      left: 0,
-    });
-  };
-
+  if (!visible) return null;
   return (
-    <>
-      {showTopBtn && (
-        <Button
-          onClick={goToTop}
-          className="fixed bottom-8 right-8 rounded-full opacity-90 shadow-md"
-          size="icon"
-        >
-          <ArrowUpToLine className="h-4 w-4" />
-        </Button>
-      )}
-    </>
+    <Button
+      type="button"
+      variant="outline"
+      size="icon"
+      className="bg-background fixed right-5 bottom-5 z-30 h-11 w-11"
+      aria-label="Back to top"
+      onClick={() =>
+        window.scrollTo({
+          top: 0,
+          behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches
+            ? 'instant'
+            : 'smooth',
+        })
+      }
+    >
+      <ArrowUp aria-hidden="true" />
+    </Button>
   );
-};
+}

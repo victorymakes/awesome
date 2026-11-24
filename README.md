@@ -6,7 +6,7 @@ A curated collection of SaaS boilerplates, templates, libraries, and tools to he
 
 AwesomeLists was born from a personal need—I was searching for high-quality SaaS boilerplates and templates to speed up development. After collecting and organizing these resources, I've created this platform to help developers like you discover the best tools available.
 
-Since launching this collection, I've also created **[LaunchSaaS](https://launchsaas.org/)**, a comprehensive SaaS starter kit that puts these concepts into practice. Check it out if you're looking for a production-ready foundation for your next SaaS project!
+Since launching this collection, I've also created **[LaunchSaaS](https://launchsaas.org/)**, a growing library of launch-ready SaaS, directory, and AI app templates with Next.js and TanStack Start foundations. Explore it for complete products you can customize with AI coding agents.
 
 ## ✨ Features
 
@@ -31,6 +31,10 @@ pnpm install
 
 ### Development
 
+Set `NEXT_PUBLIC_APP_URL` to your site's origin in `.env.local` (for local
+development, use `http://localhost:3000`). This value is required by the site's
+metadata configuration.
+
 ```bash
 npm run dev
 ```
@@ -43,6 +47,32 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 npm run build
 npm start
 ```
+
+### Validation
+
+```bash
+npm run lint
+npx tsc --noEmit
+npm test
+npm run build
+```
+
+The catalog tests use Node's built-in TypeScript stripping. They cover keyword
+search combined with category and technology filters, pagination bounds, and
+empty results.
+
+### Browsing the directory
+
+Search by keyword, then combine a category with one or more technologies. A
+resource must match every selected technology. Category and technology changes
+apply immediately; submit keywords with Enter or the search arrow. Filters stay
+in the URL and are preserved when paging through the results.
+
+Light and dark modes share the same layout and semantic Tailwind theme. The
+initial theme follows the system preference, and the header toggle saves an
+explicit choice. Shared shadcn controls use the same tokens, including popovers,
+focus states, borders, and muted text. Fonts are served locally from
+`public/fonts/`, with their license files alongside them.
 
 ## 🤝 Contributing
 
@@ -100,6 +130,28 @@ Our collection includes resources for:
 - **Deployment**: [OpenNext](https://open-next.js.org) + [Cloudflare Pages](https://pages.cloudflare.com)
 
 ## 📚 Resources
+
+### Design workflow
+
+Impeccable is installed locally for Codex in `.agents/skills/impeccable/` using:
+
+```bash
+npx impeccable install --providers=codex --scope=project --yes
+```
+
+Reload Codex after installing. Review and trust the project hooks in **Settings → Hooks**
+(or `/hooks` in the CLI) to enable automatic design checks. The hook definitions
+in `.codex/hooks.json` use project-relative paths.
+
+Use `/impeccable init` to capture product context, then scope design requests to the
+directory (`src/app/page.tsx`) or FAQ (`src/app/faq/page.tsx`). Live editing is
+configured for the shared Next.js layout in `.impeccable/live/config.json`.
+
+Keep product and design records in version control: `PRODUCT.md`, `DESIGN.md`,
+`.impeccable/config.json`, `.impeccable/design.json`, `.impeccable/surfaces/`,
+`.impeccable/live/config.json`, and `.impeccable/critique/ignore.md` when present.
+Do not ignore the entire `.impeccable/` directory; its runtime folders manage
+their own exclusions.
 
 - [Next.js Documentation](https://nextjs.org/docs)
 - [Tailwind CSS Documentation](https://tailwindcss.com/docs)
