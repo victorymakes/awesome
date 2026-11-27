@@ -2228,5 +2228,17 @@
       "Vercel AI SDK",
       "Turborepo"
     ]
+  },
+  {
+    "title": "Kite",
+    "summary": "Design tool your AI agents and your team share: Claude, ChatGPT, Cursor or Codex draw real, editable layers through a hosted MCP server, and any frame copies out as HTML, React or Tailwind for your SaaS front end.",
+    "url": "https://kite.new",
+    "category": "Developer Tool",
+    "tags": [
+      "Design",
+      "MCP",
+      "React",
+      "Tailwind CSS"
+    ]
   }
 ]
